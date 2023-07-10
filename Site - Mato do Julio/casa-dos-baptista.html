@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Mato do Júlio</title>
+    <link rel = "icon" href = "img/mato logo2.png" type = "image/x-icon">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+    <style>
+      /* Título */
+      .mato-baptista {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 20px; /* Ajuste a margem */
+        position: relative;
+      }
+
+      .mato-baptista .title-divider {
+        width: 100%;
+        max-width: 150px; /* Ajuste a largura */
+        height: 2px;
+        background-color: #000;
+        margin-top: 1px; /* Ajuste a margem superior */
+        margin-bottom: 10px; /* Ajuste a margem inferior */
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      h1 {
+        font-family:'Roboto', sans-serif;
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 0.1px;
+      }
+
+       /* Style do Slide Show */
+       .slideshow {
+        position: relative;
+        width: 200%;
+        height: auto;
+        max-height: 495px; /* Ajuste a altura máxima */
+        margin: 0 auto; /* Centralizar o slideshow na tela */
+        overflow: hidden; /* Ocultar parte da imagem que ultrapassa o quadro branco */
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2); /* Adicionar sombra ao quadro branco */
+      }
+
+      .slideshow img {
+        width: 100%;
+        height: auto;
+      }
+
+      .slick-prev,
+      .slick-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1;
+        font-size: 30px;
+        border: none;
+        outline: none;
+        padding: 10px;
+        cursor: pointer;
+      }
+
+      .slick-prev {
+        left: 5px;
+      }
+
+      .slick-next {
+        left: 465px;
+      }
+
+      .slick-dots {
+        position: absolute;
+        bottom: 315px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+      }
+
+      .slick-dots li {
+        margin: 0 5px;
+      }
+
+      .slick-dots li button {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #fff;
+        opacity: 0.5;
+        border: none;
+        outline: none;
+        padding: 0;
+        cursor: pointer;
+      }
+
+      .slick-dots li.slick-active button {
+        opacity: 1;
+      }
+
+      .slideshow-thumbnails {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+      }
+
+      .slideshow-thumbnails li {
+        list-style: none;
+        margin: 0 5px;
+      }
+
+      .slideshow-thumbnails li button {
+        width: 50px;
+        height: 50px;
+        border: none;
+        outline: none;
+        padding: 0;
+        background-color: transparent;
+      }
+
+      .slideshow-thumbnails li button img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 5px;
+      }
+
+      .slideshow-description {
+        text-align: justify;
+        margin-top: 20px;
+        font-family: 'Palanquin Dark', Sans-serif;
+        font-size: 17.5px;
+        line-height: 1.5;
+      }
+
+      .slideshow-description p {
+        text-indent: 20px;
+      }
+
+      @media (max-width: 576px) {
+        .mato-baptista {
+          margin-bottom: 10px;
+        }
+
+        h1 {
+          font-size: 24px;
+        }
+
+        .slideshow {
+          max-height: 450px;
+        }
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <section class="container">
+      <!--MENU-->
+      <header class="header">
+        <div href="#" id="brand">
+          <img src="img/mato logo2.png" alt="Logo Mato do Julio">
+          <h1>Mato <br> do Júlio</h1>
+          <h2>Mato do Júlio</h2>
+        </div>
+
+        <nav class="navigation">
+          <ul>
+            <li><a href="quem-somos.html">Quem somos</a></li>
+            <li><a href="o-que-fazemos.html">O que fazemos</a></li>
+
+            <li class="with-submenu" id="sobre-mato"><a href="#">Sobre o Mato <span class="sub-arrow"><img src="img/sub-arrow-16px.png" alt="down arrow"></span></a>
+              <ul class="submenu">
+                <li><a href="sobre-o-mato.html" rel="next">Fauna e Flora</a></li>
+                <li><a href="casa-dos-baptista.html" rel="next">Casa Baptista</a></li>
+              </ul></a></li>
+
+            <li class="with-submenu"><a href="#">Produtos <span class="sub-arrow"><img src="img/sub-arrow-16px.png" alt="down arrow"></span></a>
+              <ul class="submenu">
+                <li><a href="produtos-camiseta.html" rel="next">Camiseta</a></li>
+                <li><a href="produtos-caneca.html" rel="next">Caneca</a></li>
+              </ul></a></li>
+
+            <li class="with-submenu"><a href="#"> Contatos <span class="sub-arrow"><img src="img/sub-arrow-16px.png" alt="down arrow"></span></a>
+              <ul class="submenu">
+                <li><a href="https://www.instagram.com/matodojulio/" rel="noopener" target="_blank" rel="next">Instagram</a></li>
+                <li><a href="https://www.tiktok.com/@matodojulio_?_t=8a7WV5IwKog&_r=1" rel="noopener" target="_blank" rel="next">Tiktok</a></li>
+                <li><a href="https://www.facebook.com/matodojulio?mibextid=LQQJ4d" rel="noopener" target="_blank" rel="next">Facebook</a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=5551986095637" rel="noopener" target="_blank" rel="next">Whatsapp</a></li>
+              </ul></a></li>
+          </ul> 
+        </nav>
+
+        <button class="button" id="donate" onClick="location.href='https://apoia.se/coletivomatodojulio'">DOE AGORA</button>
+        <button class="button" id="donate-mobile" onClick="location.href='https://apoia.se/coletivomatodojulio'">DOE</button>
+
+        <div class="menu-toggle">
+          <a id="toggle" href="#menu" ><span></span></a>
+          <div class="menu">
+            <ul>
+              <li><a href="quem-somos.html">Quem somos</a></li>
+              <li><a href="o-que-fazemos.html">O que fazemos</a></li>
+              <li><a href="sobre-o-mato.html" rel="next">Sobre o Mato</a></li>
+              <li><a href="casa-dos-baptista.html">Casa Baptista</a></li>
+              <li><a href="produtos-camiseta.html">Camisetas</a></li>
+              <li><a href="produtos-caneca.html">Canecas</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <!--CASA DOS BAPTISTA-->
+      <div class="mato-baptista">
+        <div class="center-title">
+          <h1>CASA DOS BAPTISTA</h1>
+          <div class="title-divider"></div>
+        </div>
+      </div>
+      
+      <!-- Slideshow da Casa -->
+      <div class="slideshow">
+        <div><img src="img/casa-baptista/casa-baptista-frente.JPG" alt="Casa 1"></div>
+        <div><img src="img/casa-baptista/casa-baptista-ruina.JPG" alt="Casa 2"></div>
+        <div><img src="img/casa-baptista/casa-baptista-arredores.JPG" alt="Casa 3"></div>
+        <div><img src="img/casa-baptista/casa-baptista-cima.JPG" alt="Casa 4"></div>
+        <div><img src="img/casa-baptista/casa-baptista-dentro.JPG" alt="Casa 5"></div>
+        <div><img src="img/casa-baptista/casa-baptista-sala.JPG" alt="Casa 6"></div>
+      </div>
+
+      <!-- Miniaturas do Slideshow -->
+      <div class="slideshow-thumbnails"></div>
+
+      <div class="slideshow-description">
+        <p>A Casa dos Baptista, localizada na área conhecida como Mato do Júlio em Cachoeirinha, é um tesouro histórico que remonta a aproximadamente 180-200 anos atrás. Considerada uma das construções mais significativas da Arquitetura Açoriana no Estado, esse imóvel é um marco da história e da cultura da região.</p>
+        
+        <p>A casa foi construída durante o período colonial e imperial e é reconhecida como o patrimônio histórico mais significativo do município de Cachoeirinha. Ela foi tombada como patrimônio histórico devido à sua importância para a preservação da memória da cidade.</p>
+        
+        <p>Antigamente, a Casa dos Baptista fazia parte da Fazenda da Cachoeira, propriedade do Comendador João Baptista Soares da Silveira e Souza e seus herdeiros. Essa fazenda foi fundamental para o desenvolvimento do município, sendo o ponto de partida de sua origem.</p>
+        
+        <p>Ao longo dos anos, a região ao redor da casa passou por transformações significativas. A ocupação urbana de Cachoeirinha teve início a partir da divisão das terras da fazenda entre os descendentes dos Baptista, resultando no loteamento da maior parte das terras. Esse fato impulsionou o crescimento da cidade e deu origem à Vila Cachoeirinha em 1941.</p>
+        
+        <p>A preservação da Casa dos Baptista e do Mato do Júlio, onde está localizada, é de suma importância para a valorização do passado e da cultura não apenas de Cachoeirinha, mas de todo o Rio Grande do Sul. Essa área representa uma parte essencial da história da colonização do Estado pela imigração açoriana.</p>
+        
+        <p>Para aqueles interessados em conhecer mais sobre a Casa dos Baptista e a história de Cachoeirinha, é recomendada a leitura do livro "Fragmentos – Da colonização à emancipação de Cachoeirinha" de Guilherme Dias da Silva e Marcos Leandro Greff Monteiro, que oferece informações detalhadas sobre o assunto. O livro está disponível em formato PDF, proporcionando a oportunidade de aprofundamento nessa rica história local.</p>
+        
+      </div>
+
+
+      <!--CONTATO-->
+      <section class="contact">
+        <div class="contact-column">
+          <a class="contact-logo">
+            <img src="img/mato logo2.png" alt="Logo Mato">
+          </a>
+          <p class="contact-text">
+            Somos um coletivo de pessoas que luta pela preservação da fauna e flora da floresta Mato do Júlio, em Cachoeirinha, Rio Grande do Sul.
+          </p>
+          <h1>Ajude a causa</h1>
+          <button class="button-contact" onClick="location.href='https://apoia.se/coletivomatodojulio'">doe</button>
+        </div>
+
+        <div class="first-column">
+          <h2>Quem somos</h2>
+          <ul class="sub-contact">
+            <li><a href="quem-somos.html"><img src="img/right-arrow-bold.png" alt="Sobre o Coletivo"> Sobre o Coletivo</a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=5551986095637"><img src="img/right-arrow-bold.png" alt="Trabalhe conosco"> Trabalhe conosco</a></li>
+          </ul>
+
+          <h2>Nossos produtos</h2>
+          <ul class="sub-contact">
+            <li><a href="produtos-camiseta.html"><img src="img/right-arrow-bold.png" alt=""> Camisetas "Salve o Mato"</a></li>
+            <li><a href="produtos-caneca.html"><img src="img/right-arrow-bold.png" alt="Canecas com logo exclusiva"> Canecas com logo exclusiva</a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=5551986095637"><img src="img/right-arrow-bold.png" alt="Saiba mais sobre os produtos"> Saiba mais sobre os produtos</a></li>
+          </ul>
+        </div>
+
+        <div class="second-column">
+          <h2> Contatos importantes </h2>
+          <ul class="sub-contact">
+            <li><a href="https://www.instagram.com/apn.vg/"><img src="img/right-arrow-bold.png" alt=""> Associação de Preservação da Natureza</a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=5551985931288"><img src="img/right-arrow-bold.png" alt="Resgate de Fauna Silvestre"> Resgate de Fauna Silvestre</a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=5551932897517"><img src="img/right-arrow-bold.png" alt="Equipe de Fauna POA"> Equipe de Fauna POA</a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=5551933417664"><img src="img/right-arrow-bold.png" alt="Toca dos Bichos"> Toca dos Bichos</a></li>
+            <li><a href="https://www.flaticon.com/br/" title="ícones"><br> Ícones criados por Flaticon</a></li>
+          </ul>
+        </div>
+      </section>
+
+
+      <!--FOOTER-->
+      <div class="footer">
+        <p> © 2023, Coletivo Mato do Júlio. </p>
+        <div class="contact-footer">
+          <ul class="social-icons">
+            <li><a class="whatsapp" href="https://api.whatsapp.com/send?phone=5551986095637" rel="noopener" target="_blank"><img src="img/whatsapp.png" alt="whatsapp"></a></li>
+            <li><a class="instagram" href="https://www.instagram.com/matodojulio/" rel="noopener" target="_blank"><img src="img/instagram.png" alt="instagram"></a></li>
+            <li><a class="facebook" href="https://www.facebook.com/matodojulio?mibextid=LQQJ4d" rel="noopener" target="_blank"><img src="img/facebook.png" alt="facebook"></a></li>
+            <li><a class="tiktok" href="https://www.tiktok.com/@matodojulio_?_t=8a7WV5IwKog&_r=1" rel="noopener" target="_blank"><img src="img/tiktok.png" alt="tiktok"></a></li>
+          </ul>
+        </div>
+      </div>
+      
+    </section> <!--CONTAINER-->
+    
+    <button onclick="topFunction()" class="back-top">&#8593;</button>
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <script type="text/javascript" src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,878 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Mato do Júlio</title>
+    <link rel = "icon" href = "img/mato logo2.png" type = "image/x-icon">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <section class="container">
+      <!--MENU-->
+      <header class="header">
+        <div href="#" id="brand">
+          <img src="img/mato logo2.png" alt="Logo Mato do Julio">
+          <h1>Mato <br> do Júlio</h1>
+          <h2>Mato do Júlio</h2>
+        </div>
+
+        <nav class="navigation">
+          <ul>
+            <li><a href="quem-somos.html">Quem somos</a></li>
+            <li><a href="o-que-fazemos.html">O que fazemos</a></li>
+
+            <li class="with-submenu" id="sobre-mato"><a href="#">Sobre o Mato <span class="sub-arrow"><img src="img/sub-arrow-16px.png" alt="down arrow"></span></a>
+              <ul class="submenu">
+                <li><a href="sobre-o-mato.html" rel="next">Fauna e Flora</a></li>
+                <li><a href="casa-dos-baptista.html" rel="next">Casa Baptista</a></li>
+              </ul></a></li>
+
+            <li class="with-submenu"><a href="#">Produtos <span class="sub-arrow"><img src="img/sub-arrow-16px.png" alt="down arrow"></span></a>
+              <ul class="submenu">
+                <li><a href="produtos-camiseta.html" rel="next">Camiseta</a></li>
+                <li><a href="produtos-caneca.html" rel="next">Caneca</a></li>
+              </ul></a></li>
+
+            <li class="with-submenu"><a href="#"> Contatos <span class="sub-arrow"><img src="img/sub-arrow-16px.png" alt="down arrow"></span></a>
+              <ul class="submenu">
+                <li><a href="https://www.instagram.com/matodojulio/" rel="noopener" target="_blank" rel="next">Instagram</a></li>
+                <li><a href="https://www.tiktok.com/@matodojulio_?_t=8a7WV5IwKog&_r=1" rel="noopener" target="_blank" rel="next">Tiktok</a></li>
+                <li><a href="https://www.facebook.com/matodojulio?mibextid=LQQJ4d" rel="noopener" target="_blank" rel="next">Facebook</a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=5551986095637" rel="noopener" target="_blank" rel="next">Whatsapp</a></li>
+              </ul></a></li>
+          </ul> 
+        </nav>
+
+        <button class="button" id="donate" onClick="location.href='https://apoia.se/coletivomatodojulio'">DOE AGORA</button>
+        <button class="button" id="donate-mobile" onClick="location.href='https://apoia.se/coletivomatodojulio'">DOE</button>
+
+        <div class="menu-toggle">
+          <a id="toggle" href="#menu" ><span></span></a>
+          <div class="menu">
+            <ul>
+              <li><a href="quem-somos.html">Quem somos</a></li>
+              <li><a href="o-que-fazemos.html">O que fazemos</a></li>
+              <li><a href="sobre-o-mato.html" rel="next">Sobre o Mato</a></li>
+              <li><a href="casa-dos-baptista.html">Casa Baptista</a></li>
+              <li><a href="produtos-camiseta.html">Camisetas</a></li>
+              <li><a href="produtos-caneca.html">Canecas</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <!--SOBRE O MATO-->
+      <div class="mato-about">
+        <h1>Sobre o Mato</h1>
+        <div class="title-divider"></div>
+        <div class="about-mato-text">
+          <p> &emsp; A área conhecida como "Mato do Júlio" abrange impressionantes 256 hectares e é considerada a maior floresta de Cachoeirinha, fazendo parte do bioma da Mata Atlântica, reconhecido por sua incomparável riqueza em biodiversidade. Essa região possui uma miríade de árvores majestosas, oferecendo um habitat ideal para uma grande variedade de espécies.
+
+          Além da vegetação, o Mato do Júlio abriga uma série de recursos hídricos fundamentais para a manutenção desse ecossistema, incluindo o Arroio Passinhos, que serpenteia pela área, proporcionando um belo cenário e contribuindo para a vida aquática.
+            
+          A fauna do Mato do Júlio é verdadeiramente fascinante. Entre os animais que habitam essa região, é possível avistar mamíferos, répteis e uma grande diversidade de espécies de serpentes. Além disso, as copas das árvores são um refúgio para uma grande variedade de espécies de aves.
+            
+          É notável que o Mato do Júlio desempenha um papel crucial na conservação da biodiversidade local. Preservar essa área é fundamental para garantir a sustentabilidade e a continuidade desses ecossistemas valiosos.</p>
+        </div>
+      </div>
+
+      <!--FLORA TABBER-->
+      <section class="tabber">
+        <section class="tabber-flora">
+          <h5 class="tab-title">Flora</h5>
+          <div class="tab-intro">A flora é indispensável para a manutenção da vida na Terra, pois ela é a responsável pelo processo fotossintético. A catalogação realizada até agora na floresta Mato do Júlio representa apenas uma parte do que ainda pode ser feito e do tamanho da diversidade a ser preservada. <br> Abaixo, conheça algumas das espécies da floresta:</div>
+          <div class="flora">
+            <div class="flora-menu">
+              <div class="tab-primary-one">
+                <button class="tablink" onclick="tabbers(event, 'AB', 'tab-secundary-mamiferos','flora')"><span class="transition"></span><span class="text-name">Representantes de A-B</span></button>
+                <button class="tablink" onclick="tabbers(event, 'BC', 'tab-secundary-mamiferos','flora')"><span class="transition"></span><span class="text-name">Representantes de B-C</span></button>
+                <button class="tablink" onclick="tabbers(event, 'CC', 'tab-secundary-mamiferos','flora')"><span class="transition"></span><span class="text-name">Representantes de C-C</span></button>
+                <button class="tablink" onclick="tabbers(event, 'EG', 'tab-secundary-mamiferos','flora')"><span class="transition"></span><span class="text-name">Representantes de E-G</span></button>
+                <button class="tablink" onclick="tabbers(event, 'GL', 'tab-secundary-mamiferos','flora')"><span class="transition"></span><span class="text-name">Representantes de G-L</span></button>
+                <button class="tablink" onclick="tabbers(event, 'LP', 'tab-secundary-mamiferos','flora')"><span class="transition"></span><span class="text-name">Representantes de L-P</span></button>
+                <button class="tablink" onclick="tabbers(event, 'PT', 'tab-secundary-mamiferos','flora')"><span class="transition"></span><span class="text-name">Representantes de P-T</span></button>
+                <button class="tablink" onclick="tabbers(event, 'TX', 'tab-secundary-mamiferos','flora')"><span class="transition"></span><span class="text-name">Representantes de T-X</span></button>
+              </div>
+              <div class="tab-primary-one-mobile">
+                <button class="tablink" onclick="tabbers(event, 'AB', 'tab-secundary-mamiferos-mobile','flora')"><span class="transition"></span><span class="text-name">A-B</span></button>
+                <button class="tablink" onclick="tabbers(event, 'BC', 'tab-secundary-mamiferos-mobile','flora')"><span class="transition"></span><span class="text-name">B-C</span></button>
+                <button class="tablink" onclick="tabbers(event, 'CC', 'tab-secundary-mamiferos-mobile','flora')"><span class="transition"></span><span class="text-name">C-C</span></button>
+                <button class="tablink" onclick="tabbers(event, 'EG', 'tab-secundary-mamiferos-mobile','flora')"><span class="transition"></span><span class="text-name">E-G</span></button>
+                <button class="tablink" onclick="tabbers(event, 'GL', 'tab-secundary-mamiferos-mobile','flora')"><span class="transition"></span><span class="text-name">G-L</span></button>
+                <button class="tablink" onclick="tabbers(event, 'LP', 'tab-secundary-mamiferos-mobile','flora')"><span class="transition"></span><span class="text-name">L-P</span></button>
+                <button class="tablink" onclick="tabbers(event, 'PT', 'tab-secundary-mamiferos-mobile','flora')"><span class="transition"></span><span class="text-name">P-T</span></button>
+                <button class="tablink" onclick="tabbers(event, 'TX', 'tab-secundary-mamiferos-mobile','flora')"><span class="transition"></span><span class="text-name">T-X</span></button>
+              </div>
+            </div>
+
+            <div id="AB" class="description-main-flora">
+              <h2>Lista dos representantes de A-B:</h2>
+              <p><b>Nome:</b>	Abacate 	<b>Espécie:</b>	Persea americana Mill.	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Exótica	<br>
+                <b>Nome:</b>	Açoita-cavalo 	<b>Espécie:</b>	Luehea divaricata Mart	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Alecrim-do-campo	<b>Espécie:</b>	Vernonia nudiflora Less	<b>Hábito:</b>	Capoeira 	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Amoreira 	<b>Espécie:</b>	Morus nigra L.	<b>Hábito:</b>	Arbóreo 	<b>Planta:</b>	Exótica	<br>
+                <b>Nome:</b>	Angico-vermelho	<b>Espécie:</b>	Parapiptadenia rigida (Benth.) Brenan	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Araçazeiro 	<b>Espécie:</b>	Psidium cattleianum Sabine 	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Aspargo-decorativo	<b>Espécie:</b>	Asparagus setaceus (K.) Jessop	<b>Hábito:</b>	Trepadeira	<b>Planta:</b>	Exótica	<br>
+                <b>Nome:</b>	Aroeira-periquita	<b>Espécie:</b>	Schinus molle L. 	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Aroeira-vermelha 	<b>Espécie:</b>	Schinus terebinthifolia Raddi 	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Bananeira 	<b>Espécie:</b>	Musa x paradisíaca L.	<b>Hábito:</b>	Cespitoso 	<b>Planta:</b>	Exótica	<br></p>
+            </div>
+          
+            <div id="BC" class="description-flora">
+              <h2>Lista dos representantes de B-C:</h2>
+              <p><b>Nome:</b>	Bromélia-tanque	<b>Espécie:</b>	Vriesea gigantea Gaudich	<b>Hábito:</b>	Epífita	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Buganvile-lilás 	<b>Espécie:</b>	Bougainvillea sp.	<b>Hábito:</b>	Arbóreo 	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Butiazeiro	<b>Espécie:</b>	Butia aff. eriospatha (Mart. ex Drude) Becc.	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Cactus-colunar	<b>Espécie:</b>	Cereus hildmannianus K. S.	<b>Hábito:</b>	Arbóreo-arbustiva	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Canafístula 	<b>Espécie:</b>	Peltophorum dobium (Spreng.) Taub. 	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Camboim-de-folha-miúda	<b>Espécie:</b>	Myrciaria delicatula (DC.) Berg.	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Camboim-de-folha-grande	<b>Espécie:</b>	Myrciaria cuspidata Berg.	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Canela-amarela	<b>Espécie:</b>	Nectandra lanceolata Nees 	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Canela-branca 	<b>Espécie:</b>	Ocotea spixiana (Ness) Mez 	<b>Hábito:</b>	Arbustivo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Capororoca	<b>Espécie:</b>	Myrsine ferruginea (Sw.) R.Br.	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br></p>
+            </div>
+          
+            <div id="CC" class="description-flora">
+              <h2>Lista dos representantes de C-C:</h2>
+              <p><b>Nome:</b>	Capororoquinha 	<b>Espécie:</b>	Myrsine sp.	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Caquizeiro	<b>Espécie:</b>	Diospyros kaki L.	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Exótica	<br>
+                <b>Nome:</b>	Carqueja	<b>Espécie:</b>	Baccharis trimera (Less.) DC.	<b>Hábito:</b>	Capoeira 	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Cedro 	<b>Espécie:</b>	Cedrela fissilis Vell.	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Cerejeira	<b>Espécie:</b>	Eugenia involucrata DC.	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Chá-de-bugre	<b>Espécie:</b>	Casearia punctata Spreng.	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Chal-chal	<b>Espécie:</b>	Allophylus edulis (St.Hill. Cambess. & A. Juss.)	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Cocão	<b>Espécie:</b>	Erythroxylum argentinum O.E. Schulz	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Corticeira-do-banhado	<b>Espécie:</b>	Erythrina crista-galli L.	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Cravo-do-mato	<b>Espécie:</b>	Tillandsia spp.	<b>Hábito:</b>	Epífita	<b>Planta:</b>	Nativa	<br></p>
+            </div>
+
+            <div id="EG" class="description-flora">
+              <h2>Lista dos representantes de E-G:</h2>
+              <p><b>Nome:</b>	Eucalipto	<b>Espécie:</b>	Eucalyptus grandis W. Hill ex Maid. 	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Exótica	<br>
+                <b>Nome:</b>	Eucalipto 	<b>Espécie:</b>	Eucalyptus saligna Sm.	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Exótica	<br>
+                <b>Nome:</b>	Falsa figueira	<b>Espécie:</b>	Coussapoa microcarpa (Schott) Rizzini	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Figueira da folha miúda	<b>Espécie:</b>	Ficus cestrifolia Schott ex Spreng.	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Figueira mato pau 	<b>Espécie:</b>	Ficus luschnathiana (Miq.) Miq.	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Goiabeira  	<b>Espécie:</b>	Psidium guajava L.	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	?	<br>
+                <b>Nome:</b>	Guabiroba	<b>Espécie:</b>	Campomanesia guaviroba (DC.) Kiaersk.	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Grama-catarina (= Grama-são-carlos)	<b>Espécie:</b>	Axonopus affinis Chase 	<b>Hábito:</b>	Capoeira	<b>Planta:</b>	?	<br>
+                <b>Nome:</b>	Grama-estaladeira 	<b>Espécie:</b>	Erianthus angustifolius Nees	<b>Hábito:</b>	Capoeira	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Grandiúva	<b>Espécie:</b>	Celtis canescens Kunth	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br></p>
+            </div>
+
+            <div id="GL" class="description-flora">
+              <h2>Lista dos representantes de G-L:</h2>
+              <p><b>Nome:</b>	Gravatá	<b>Espécie:</b>	Eryngium horridum Malme	<b>Hábito:</b>	Capoeira	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Guapuruvu	<b>Espécie:</b>	Schizolobium parahyba (Vell.) S. F. Blake	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Ingá-feijão	<b>Espécie:</b>	 Inga marginata Wild.	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Ipê-amarelo	<b>Espécie:</b>	Handroanthus chrysotrichus (Mart.) Mattos	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Ipê-roxo	<b>Espécie:</b>	Handroanthus avellanedae (Lorentz) Mattos	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Jacarandá 	<b>Espécie:</b>	Jacaranda mimosifolia D. Don.	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Exótica	<br>
+                <b>Nome:</b>	Jambolão 	<b>Espécie:</b>	Syzygium cumini (L.) Skeels	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Exótica	<br>
+                <b>Nome:</b>	Jerivá	<b>Espécie:</b>	Syagrus romanzoffiana (Cham.) Glassman	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Lantana	<b>Espécie:</b>	Lantana camara L.	<b>Hábito:</b>	Arbustivo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Laranjeira	<b>Espécie:</b>	Citrus X sinensis L. Osbeck 	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Exótica	<br></p>
+            </div>
+
+            <div id="LP" class="description-flora">
+              <h2>Lista dos representantes de L-P:</h2>
+              <p><b>Nome:</b>	Leiteiro	<b>Espécie:</b>	Sapium glandulatum (Vell.) Pax	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Limão-bergamota	<b>Espécie:</b>	Citrus x limon Burm. f.	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Exótica	<br>
+                <b>Nome:</b>	Macela	<b>Espécie:</b>	Achyrocline satureioides (Lam.) DC.	<b>Hábito:</b>	Capoeira	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Malvavisco	<b>Espécie:</b>	Malvaviscus arboreus Cav.	<b>Hábito:</b>	Arbustivo	<b>Planta:</b>	Exótica	<br>
+                <b>Nome:</b>	Mamica-de-cadela	<b>Espécie:</b>	Zanthoxylum rhoifolium Lam.	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Maracujá-do-mato	<b>Espécie:</b>	Passiflora aff. cincinnata Mast.	<b>Hábito:</b>	Trepadeira	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Maricá	<b>Espécie:</b>	Mimosa bimucronata (DC.) Kuntze 	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Nespereira	<b>Espécie:</b>	Eriobotrya japonica (Thunb.) Lindl.	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Exótica	<br>
+                <b>Nome:</b>	Orquídea	<b>Espécie:</b>	Cattleya intermedia Grah. 	<b>Hábito:</b>	Epífita	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Palmeira-cica	<b>Espécie:</b>	Cycas revoluta Thunb.	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Exótica	<br></p>
+            </div>
+
+            <div id="PT" class="description-flora">
+              <h2>Lista dos representantes de P-T:</h2>
+              <p><b>Nome:</b>	Palmeira-leque-chinês	<b>Espécie:</b>	Livistona chinensis (N. J. J.) R. B.	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Exótica	<br>
+                <b>Nome:</b>	Paineira	<b>Espécie:</b>	Ceiba speciosa A. St.-Hill.	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Pata-de-vaca	<b>Espécie:</b>	Bauhnia forficata Link	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Pinheiro-americano	<b>Espécie:</b>	Pinus sp.	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Exótica	<br>
+                <b>Nome:</b>	Pitangueira	<b>Espécie:</b>	Eugenia uniflora L.	<b>Hábito:</b>	Arbustivo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Pseudo bombax	<b>Espécie:</b>	Pseudobombax grandiflorum A. Robyns	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Exótica	<br>
+                <b>Nome:</b>	Quaresmeira	<b>Espécie:</b>	Tibouchina sp.	<b>Hábito:</b>	Arbustivo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Salso-chorão	<b>Espécie:</b>	Salix babylonica L.	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Taquareira-listrada	<b>Espécie:</b>	Bambusa vulgaris Schrad. ex J. C.	<b>Hábito:</b>	Cespitoso	<b>Planta:</b>	Exótica	<br>
+                <b>Nome:</b>	Taquareira-nativa 	<b>Espécie:</b>	Merostachys speciosa Spreng.	<b>Hábito:</b>	Cespitoso	<b>Planta:</b>	Nativa	<br></p>
+            </div>
+
+            <div id="TX" class="description-flora">
+              <h2>Lista dos representantes de T-X:</h2>
+              <p><b>Nome:</b>	Timbaúva	<b>Espécie:</b>	Enterolobium contortisiliquum (Vell.) Morong	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Tipuana	<b>Espécie:</b>	Tipuana tipu (Benth.) Kuntze 	<b>Hábito:</b>	Arbóreo	<b>Planta:</b>	Exótica	<br>
+                <b>Nome:</b>	Vassoura-branca	<b>Espécie:</b>	Baccharis dracunculifolia DC. 	<b>Hábito:</b>	Arbustivo	<b>Planta:</b>	Nativa	<br>
+                <b>Nome:</b>	Vassoura-vermelha	<b>Espécie:</b>	Dodonaea viscosa Jacq. 	<b>Hábito:</b>	Arbustivo	<b>Planta:</b>	?	<br>
+                <b>Nome:</b>	Xaxim	<b>Espécie:</b>	Dicksonia sellowiana Hook.	<b>Hábito:</b>	Arborescente	<b>Planta:</b>	Nativa	<br></p>
+            </div>
+          </div>
+        </section> 
+
+        <!--FAUNA TABBER-->
+        <section class="tabber-fauna">
+          <h5 class="tab-title">Fauna</h5>
+          <div class="tab-intro">A fauna tem importância fundamental
+            no equilíbrio dos ecossistemas em geral,
+            com muitas espécies agindo na
+            manutenção da cobertura vegetal,
+            auxiliando a polinização e a dispersão
+            de sementes. O Mato do Júlio apresenta uma grande diversidade de espécies animais, de répteis a
+            mamíferos. <br> Confira abaixo as espécies encontradas:
+          </div>
+          
+          <div class="tab-primary-two">
+            <button class="main-tablink" onclick="tabbers(event, 'Mamíferos','Graxaim-do-mato')"><span class="folder"></span><span class="folder-name">Mamíferos</span></button>
+            <button class="main-tablink" onclick="tabbers(event, 'Répteis',)"><span class="folder"></span><span class="folder-name">Répteis</span></button>
+            <button class="main-tablink" onclick="tabbers(event, 'Aves')"><span class="folder"></span><span class="folder-name">Aves</span></button>
+          </div>
+          <div class="tab-primary-two-mobile">
+            <button class="main-tablink" onclick="tabbers(event, 'Mamíferos-mobile')"><span class="folder"></span><span class="folder-name">Mamíferos</span></button>
+            <button class="main-tablink" onclick="tabbers(event, 'Répteis-mobile')"><span class="folder"></span><span class="folder-name">Répteis</span></button>
+            <button class="main-tablink" onclick="tabbers(event, 'Aves-mobile')"><span class="folder"></span><span class="folder-name">Aves</span></button>
+          </div>
+
+          <div class="fauna">
+            <!--SECOND TAB - Mamíferos-->
+            <div class="fauna-menu">
+              <div id="Mamíferos" class="tab-secundary-mamiferos">
+                <button class="sub-tablink" onclick="tabbers(event, 'Graxaim-do-mato', 'tab-secundary-mamiferos','fauna')"><span class="transition"></span><span class="text-name">Graxaim-do-mato</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Gambá-de-orelha-branca', 'tab-secundary-mamiferos','fauna')"><span class="transition"></span><span class="text-name">Gambá-de-orelha-branca</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Ouriço-cacheiro', 'tab-secundary-mamiferos','fauna')"><span class="transition"></span><span class="text-name">Ouriço-cacheiro</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Preá', 'tab-secundary-mamiferos','fauna')"><span class="transition"></span><span class="text-name">Preá</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Ratão-do-banhado', 'tab-secundary-mamiferos','fauna')"><span class="transition"></span><span class="text-name">Ratão-do-banhado</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Tatu-galinha', 'tab-secundary-mamiferos','fauna')"><span class="transition"></span><span class="text-name">Tatu-galinha</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Lontra', 'tab-secundary-mamiferos','fauna')"><span class="transition"></span><span class="text-name">Lontra</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Morcego-fruteiro', 'tab-secundary-mamiferos','fauna','fauna')"><span class="transition"></span><span class="text-name">Morcego-fruteiro</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Morceguinho-das-casas', 'tab-secundary-mamiferos','fauna')"><span class="transition"></span><span class="text-name">Morceguinho-das-casas</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Rato-das-taquareiras', 'tab-secundary-mamiferos','fauna')"><span class="transition"></span><span class="text-name">Rato-das-taquareiras</span></button>
+              </div>
+
+              <div id="Mamíferos-mobile" class="tab-secundary-mamiferos-mobile">
+                <button class="sub-tablink" onclick="tabbers(event, 'Graxaim-do-mato', 'tab-secundary-mamiferos-mobile','fauna')"><span class="transition"></span><span class="text-name">Graxaim</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Gambá-de-orelha-branca', 'tab-secundary-mamiferos-mobile','fauna')"><span class="transition"></span><span class="text-name">Gambá</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Ouriço-cacheiro', 'tab-secundary-mamiferos-mobile','fauna')"><span class="transition"></span><span class="text-name">Ouriço</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Preá', 'tab-secundary-mamiferos-mobile','fauna')"><span class="transition"></span><span class="text-name">Preá</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Ratão-do-banhado', 'tab-secundary-mamiferos-mobile','fauna')"><span class="transition"></span><span class="text-name">Ratão</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Tatu-galinha', 'tab-secundary-mamiferos-mobile','fauna')"><span class="transition"></span><span class="text-name">Tatu</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Lontra', 'tab-secundary-mamiferos-mobile','fauna')"><span class="transition"></span><span class="text-name">Lontra</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Morcego-fruteiro', 'tab-secundary-mamiferos-mobile','fauna')"><span class="transition"></span><span class="text-name">Morcego</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Morceguinho-das-casas', 'tab-secundary-mamiferos-mobile','fauna')"><span class="transition"></span><span class="text-name">Morceguinho</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Rato-das-taquareiras', 'tab-secundary-mamiferos-mobile','fauna')"><span class="transition"></span><span class="text-name">Rato</span></button>
+              </div>
+            </div>
+
+              <div id="Graxaim-do-mato" class="description-main-fauna">
+                <h2>Graxaim-do-mato</h2>
+                <p><b>Espécie:</b> Cerdocyon thous	<b>Família:</b>	Canidae</p>
+                <p>O graxaim-do-mato é um mamífero carnívoro da família Canidae, também conhecido como raposa-do-campo ou cachorro-do-mato. Ele é nativo da América do Sul e pode ser encontrado em diversos países, incluindo o Brasil. Mesmo que prefira habitats variados, como áreas de floresta, campos abertos, pampas e cerrados, são animais bastante adaptáveis, podendo ser encontrados em áreas urbanas, próximos a fazendas e até mesmo em parques e jardins. Possui uma dieta variada, sendo considerado um oportunista. Sua alimentação inclui pequenos mamíferos, aves, répteis, insetos, frutas e até mesmo restos de alimentos humanos.
+                </p>
+              </div>
+
+              <div id="Gambá-de-orelha-branca" class="sub-description-fauna">
+                <h2>Gambá-de-orelha-branca</h2>
+                <p><b>Espécie:</b>	Didelphis albiventris	<b>Família:</b>	Didelphidae</p>
+                <p>O gambá-de-orelha-branca desempenha um papel ecológico importante, pois atua como controlador de populações de insetos e também como dispersor de sementes. No entanto, devido à perda de habitat e à caça, a espécie enfrenta ameaças em algumas áreas de sua distribuição nas diversas regiões da América do Sul, incluindo Brasil, Argentina, Paraguai e Uruguai. Sendo um marsupial de tamanho médio, conhecido por ser principalmente noturno e ter hábitos arborícolas, embora também possa ser encontrado no solo. Considerado um animal oportunista em relação à sua alimentação, sua dieta é composta principalmente por insetos, frutas, pequenos vertebrados, ovos, carcaças e até mesmo restos de alimentos humanos. Sua dentição é adaptada para uma alimentação variada.
+                </p>
+              </div>
+
+              <div id="Ouriço-cacheiro" class="sub-description-fauna">
+                <h2>Ouriço-cacheiro</h2>
+                <p><b>Espécie:</b>	Coendou spinosus	<b>Família:</b>	Erethizontidae</p>
+                <p>O Ouriço-cacheiro, também conhecido como ouriço-cacheiro-europeu, é um pequeno mamífero encontrado em diversas partes da Europa e em algumas regiões da Ásia. Considerado um animal noturno e solitário, sendo mais ativo durante a noite. Ele é terrestre, mas também é um bom escalador e nadador. Durante o dia, costuma descansar em ninhos feitos de folhas, gramíneas ou em tocas naturais. Seus sentidos de audição e olfato são bem desenvolvidos, ajudando-os a se orientar e detectar presas. Alimentam-se de folhas, flores, frutas e até cortiça ou insetos, como besouros, lesmas, caracóis e vermes. 
+                </p>
+              </div>
+
+              <div id="Preá" class="sub-description-fauna">
+                <h2>Preá</h2>
+                <p><b>Espécie:</b>	Cavia aperea	<b>Família:</b>	Caviidae</p>
+                <p> É encontrado na Argentina, Brasil, Colômbia, Equador, Peru, Bolívia, Paraguai, Uruguai e Venezuela. Em algumas regiões do Brasil é criado e usado como alimento. Os Preás são animais sociais e vivem em grupos familiares chamados de colônias. Eles são ativos durante o dia e têm hábitos terrestres. Costumam se abrigar em tocas subterrâneas, que são escavadas por eles mesmos ou reutilizam tocas abandonadas por outros animais. São herbívoros, se alimentando principalmente de vegetação como gramíneas, folhas, sementes e raízes. Eles também podem se alimentar de frutas e outros materiais vegetais disponíveis em seu ambiente.
+                </p>
+              </div>
+
+              <div id="Ratão-do-banhado" class="sub-description-fauna">
+                <h2>Ratão-do-banhado</h2>
+                <p><b>Espécie:</b>	Myocastor coypus	<b>Família:</b>	Capromydae</p>
+                <p> O ratão-do-banhado vive em tocas ao longo de trechos de água e se alimenta de caules de plantas de rios, sendo adaptados à vida semi-aquática. Originalmente nativo da América do Sul subtropical e temperada, desde então foi introduzido na América do Norte, Europa, Ásia e África, principalmente por fazendeiros de peles. Embora ainda seja caçado e preso por seu pelo em algumas regiões, seus hábitos destrutivos de escavação e alimentação muitas vezes o colocam em conflito com os humanos, e é considerado uma espécie invasora. O ratão-do-banhado também transmite diversas doenças para humanos e animais principalmente através da contaminação da água.
+                </p>
+              </div>
+
+              <div id="Tatu-galinha" class="sub-description-fauna">
+                <h2>Tatu-galinha</h2>
+                <p><b>Espécie:</b>	Dasypus novemcinctus	<b>Família:</b>	Dasypodidae</p>
+                <p>Alimentam-se principalmente de invertebrados, pequenos vertebrados, tubérculos, frutas e fungos, portanto são considerados onívoros ao invés de insetívoros. Vivem em tocas que eles mesmos escavam, onde características estruturais da toca, como entrada e tamanho variam de espécie para espécie. O tatu-galinha desempenha um papel importante no ecossistema como controlador de populações de insetos e na ciclagem de nutrientes do solo através de suas tocas. A caça ilegal, fruto da apreciação da carne do Tatu em práticas culturais no Rio Grande do Sul, a utilização do rabo e da carapaça do Tatu como adornos, animais vítimas de predação por cães e atropelamentos ameaçam ainda mais estes animais.
+                </p>
+              </div>
+
+              <div id="Lontra" class="sub-description-fauna">
+                <h2>Lontra</h2>
+                <p><b>Espécie:</b>	Lontra longicaudis	<b>Família:</b>	Mustelídeos</p>
+                <p>Assim como as ariranhas, as lontras possuem adaptações morfológicas a vida semiaquática. Passam grande parte do tempo nadando, mergulhando em busca de alimento e explorando o ambiente aquático. Além disso, constroem tocas nas margens dos rios ou em outros locais abrigados para descansar e criar seus filhotes. Sua dieta consiste predominantemente em peixes e crustáceos, apesar de alimentar-se de insetos, pequenos mamíferos, aves e répteis de maneira ocasional. As principais ameaças à espécie são a degradação e fragmentação ambiental, sobretudo a degradação de recursos hídricos, a caça por retaliação a eventuais ataques a criações e atropelamentos.
+                </p>
+              </div>
+
+              <div id="Morcego-fruteiro" class="sub-description-fauna">
+                <h2>Morcego-fruteiro</h2>
+                <p><b>Espécie:</b>	Sturnira lilium	<b>Família:</b>	Molossidae</p>
+                <p>O morcego-frugívoro é um tipo de morcego que se alimenta principalmente de frutas e néctar de flores. Eles pertencem à uma das maiores famílias de morcegos e são animais noturnos, sendo mais ativos durante a noite. Eles são sociáveis e podem formar grandes colônias, abrigando-se em cavernas, árvores ocas ou outros locais protegidos durante o dia. Os morcegos-frugívoros desempenham um papel crucial na dispersão de sementes de plantas, ajudando a regenerar as florestas. Além disso, sua polinização contribui para a reprodução de várias espécies vegetais. No entanto, esses morcegos também enfrentam desafios de conservação, como perda de habitat, caça e a ameaça de doenças.
+                </p>
+              </div>
+
+              <div id="Morceguinho-das-casas" class="sub-description-fauna">
+                <h2>Morceguinho-das-casas</h2>
+                <p><b>Espécie:</b>	Tadarida brasiliensis	<b>Família:</b>	Molossidae</p>
+                <p>Os morceguinhos-das-casas são encontrados em toda a Europa, partes da Ásia e no norte da África. Eles têm uma afinidade especial por áreas urbanas e são frequentemente avistados em parques, jardins, árvores e edifícios, incluindo sótãos e cavidades em paredes. Esses morcegos são considerados insetívoros, se alimentando principalmente de insetos noturnos, como mosquitos, mariposas e moscas. Eles são capazes de capturar suas presas em pleno voo usando a ecolocalização, um sistema em que emitem sons de alta frequência e escutam os ecos para detectar objetos no ambiente. Eles são solitários, mas podem formar colônias em algumas ocasiões.
+                </p>
+              </div>
+
+              <div id="Rato-das-taquareiras" class="sub-description-fauna">
+                <h2>Rato-das-taquareiras</h2>
+                <p><b>Espécie:</b>	Kannabateomys amblyonyx	<b>Família:</b>	Echimyidae</p>
+                <p> Esta espécie é único mamífero do Rio Grande do Sul adaptado a vida em taquaras e bambus, alimentando-se exclusivamente desta planta. A escassez de conhecimento dessa espécie não permitiu ainda uma correta verificação de seu status de conservação. Como sua distribuição é muito restrita a taquarais, a fragmentação de seu habitat é extremamente prejudicial a preservação da espécie. É um dos poucos roedores que possuem associações monogâmicos e ainda cuidado biparental, onde machos e fêmeas cuidam dos filhotes.
+                </p>
+              </div>
+
+            <!--SECOND TAB - Répteis-->
+            <div class="fauna-menu">
+              <div id="Répteis" class="tab-secundary-repteis">
+                <button class="sub-tablink" onclick="tabbers(event, 'Teíu', 'tab-secundary-repteis','fauna','fauna')"><span class="transition"></span><span class="text-name">Teíu</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Lagarto', 'tab-secundary-repteis','fauna','fauna')"><span class="transition"></span><span class="text-name">Lagarto</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Lagartixa-doméstica', 'tab-secundary-repteis','fauna','fauna')"><span class="transition"></span><span class="text-name">Lagartixa-doméstica</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Cobra-cega', 'tab-secundary-repteis','fauna','fauna')"><span class="transition"></span><span class="text-name">Cobra-cega</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Cágado-de-espinhos', 'tab-secundary-repteis','fauna','fauna')"><span class="transition"></span><span class="text-name">Cágado-de-espinhos</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Tartaruga-tigre-d’água', 'tab-secundary-repteis','fauna','fauna')"><span class="transition"></span><span class="text-name">Tartaruga-tigre-d’água</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Cobra-verde', 'tab-secundary-repteis','fauna','fauna')"><span class="transition"></span><span class="text-name">Cobra-verde</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Papa-lesma', 'tab-secundary-repteis','fauna','fauna')"><span class="transition"></span><span class="text-name">Papa-lesma</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Coral-falsa', 'tab-secundary-repteis','fauna','fauna')"><span class="transition"></span><span class="text-name">Coral-falsa</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Cobra-lisa', 'tab-secundary-repteis','fauna','fauna')"><span class="transition"></span><span class="text-name">Cobra-lisa</span></button>
+              </div>
+              <div id="Répteis-mobile" class="tab-secundary-repteis-mobile">
+                <button class="sub-tablink" onclick="tabbers(event, 'Teíu', 'tab-secundary-repteis-mobile','fauna','fauna')"><span class="transition"></span><span class="text-name">Teíu</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Lagarto', 'tab-secundary-repteis-mobile','fauna','fauna')"><span class="transition"></span><span class="text-name">Lagarto</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Lagartixa-doméstica', 'tab-secundary-repteis-mobile','fauna','fauna')"><span class="transition"></span><span class="text-name">Lagartixa</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Cobra-cega', 'tab-secundary-repteis-mobile','fauna','fauna')"><span class="transition"></span><span class="text-name">Cobra</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Cágado-de-espinhos', 'tab-secundary-repteis-mobile','fauna','fauna')"><span class="transition"></span><span class="text-name">Cágado</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Tartaruga-tigre-d’água', 'tab-secundary-repteis-mobile','fauna','fauna')"><span class="transition"></span><span class="text-name">Tartaruga</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Cobra-verde', 'tab-secundary-repteis-mobile','fauna','fauna')"><span class="transition"></span><span class="text-name">Cobra</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Papa-lesma', 'tab-secundary-repteis-mobile','fauna','fauna')"><span class="transition"></span><span class="text-name">Papa</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Coral-falsa', 'tab-secundary-repteis-mobile','fauna','fauna')"><span class="transition"></span><span class="text-name">Coral</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Cobra-lisa', 'tab-secundary-repteis-mobile','fauna','fauna')"><span class="transition"></span><span class="text-name">Cobra</span></button>
+              </div>
+            </div>
+
+            <div id="Teíu" class="sub-description-fauna">
+              <h2>Teíu</h2>
+              <p><b>Espécie:</b>	Salvator merianae	<b>Família:</b>	Teiidae Merrem</p>
+              <p> O Teiú é um lagarto diurno e territorial. São excelentes nadadores e escaladores de árvores, além de serem hábeis escavadores, eles podem ser vistos tomando banhos de sol em rochas ou troncos. Sua distribuição inclui países da América do Sul, como Brasil, Argentina, Paraguai, Uruguai e Bolívia. Visto como um predador oportunista que possui uma dieta variada, ele se alimenta de uma ampla gama de presas, incluindo insetos, pequenos vertebrados, ovos e frutas. Também pode ser considerado um importante controlador de populações de insetos. No entanto, a destruição do habitat e a caça para uso comercial ou como fonte de alimento podem representar ameaças para esses lagartos.
+              </p>
+            </div>
+
+            <div id="Lagarto" class="sub-description-fauna">
+              <h2>Lagarto</h2>
+              <p><b>Espécie:</b>	Teius oculatus	<b>Família:</b>	Teiidae Merrem</p>
+              <p>O Teiú Oculatus é um lagarto diurno e terrestre. Eles são ágeis corredores e escavadores habilidosos. Além disso, são conhecidos por serem bons nadadores e escaladores de árvores. Eles são animais solitários, mas podem ser vistos em grupos pequenos em busca de alimento. São animais onívoros e têm uma dieta diversificada. Eles se alimentam de insetos, como formigas e besouros, além de pequenos vertebrados, como roedores e aves. Também consomem frutas, sementes e vegetação. Ele é nativo da região central da América do Sul, incluindo Brasil, Paraguai e Argentina, considerados uma espécie de preocupação menor em termos de conservação, pois são relativamente abundantes em muitas áreas onde ocorrem.
+              </p>
+            </div>
+
+            <div id="Lagartixa-doméstica" class="sub-description-fauna">
+              <h2>Lagartixa-doméstica</h2>
+              <p><b>Espécie:</b>	Hemidactylus mabouia	<b>Família:</b>	Gekkonidae Gray</p>
+              <p>A lagartixa-doméstica-tropical ou lagartixa de parede, é uma espécie de lagarto de pequenas dimensões frequentemente encontrada nos lares brasileiros, sendo originária do sudeste asiático, mas se espalhou para muitas partes do mundo devido ao comércio e ao transporte humano. A presença das lagartixas em ambientes residenciais é geralmente considerada benéfica, pois elas ajudam a controlar a população de insetos indesejados, como moscas, mosquitos, baratas e outros pequenos insetos encontrados em ambientes urbanos. Esses répteis são inofensivos para os humanos e, na maioria das vezes, preferem evitar o contato direto.
+              </p>
+            </div>
+
+            <div id="Cobra-cega" class="sub-description-fauna">
+              <h2>Cobra-cega</h2>
+              <p><b>Espécie:</b>	Amphisbaena darwini	<b>Família:</b>	Amphisbaenidae Gray</p>
+              <p>Apesar de serem chamadas de cobras, elas não são cobras verdadeiras, mas sim répteis semelhantes a lagartos com hábitos noturnos. São animais fossoriais adaptados para a vida subterrânea, ou seja, vivem principalmente no subsolo, escavando túneis em busca de alimentos, como insetos e minhocas. Elas desempenham papéis ecológicos importantes em seus habitats, ajudando a controlar a população de invertebrados e contribuindo para a ciclagem de nutrientes no solo. Vale ressaltar que esses animais são inofensivos para os seres humanos e, na maioria das vezes, preferem evitar o contato direto, buscando refúgio no subsolo quando perturbados.
+              </p>
+            </div>
+
+            <div id="Cágado-de-espinhos" class="sub-description-fauna">
+              <h2>Cágado-de-espinhos</h2>
+              <p><b>Espécie:</b>	Acanthochelys spixii	<b>Família:</b>	Chelidae Gray</p>
+              <p>Popularmente conhecida como "cágado-negro" devido à sua coloração que geralmente varia entre cinza-escura e preta, essa espécie também é chamada de "cágado-de-espinhos" devido à presença de estruturas tuberculares pontiagudas e alongadas que recobrem seu pescoço. Os cágados-pretos dividem sua rotina diária entre a terra e água. Contudo são considerados muito mais aquáticos do que terrestres, já que dependem da temperatura da água para manterem equilíbrio de sua necessidade de temperaturas amenas para seu corpo. Eles são principalmente diurnos e se alimentam de uma variedade de alimentos, incluindo plantas aquáticas, frutas, insetos e pequenos vertebrados.
+              </p>
+            </div>
+
+            <div id="Tartaruga-tigre-d’água" class="sub-description-fauna">
+              <h2>Tartaruga-tigre-d’água</h2>
+              <p><b>Espécie:</b>	Trachemys dorbigni	<b>Família:</b>	Emydidae Rafinesque</p>
+              <p> As tartarugas-de-cabeça-amarela são principalmente aquáticas, passando a maior parte do tempo na água. Elas são animais solitários e territoriais, mas também podem ser encontradas em pequenos grupos. São animais ectotérmicos, o que significa que dependem da temperatura do ambiente para regular sua temperatura corporal. Pode ser encontrada no Brasil, Uruguai e Argentina. No Rio Grande do Sul, habita principalmente a região da Lagoa dos Patos e o Banhado do Taim. Essas tartarugas são onívoras, se alimentando de uma variedade de alimentos, incluindo plantas aquáticas, insetos, crustáceos, peixes pequenos e até mesmo pequenas aves ou mamíferos.
+              </p>
+            </div>
+
+            <div id="Cobra-verde" class="sub-description-fauna">
+              <h2>Cobra-verde</h2>
+              <p><b>Espécie:</b>	Philodryas olfersii	<b>Família:</b>	Colubridae Oppel</p>
+              <p>A cobra verde, cientificamente conhecida como Philodryas olfersii, é uma serpente não venenosa encontrada em grande parte da América do Sul, incluindo Brasil, Argentina, Paraguai, Uruguai e partes do Chile. A cobra verde é uma serpente diurna e ovipara, que geralmente passa grande parte do tempo em árvores e arbustos. Ela é considerada uma serpente ativa e pode ser vista em busca de presas, como pequenos mamíferos, aves, lagartos e até mesmo outras serpentes. Quando ameaçada, pode mostrar um comportamento defensivo, inflando o pescoço e produzindo um som de chiado. A cobra verde desempenha um papel ecológico importante ajudando a regular as populações de suas presas. 
+              </p>
+            </div>
+
+            <div id="Papa-lesma" class="sub-description-fauna">
+              <h2>Papa-lesma</h2>
+              <p><b>Espécie:</b>	Dipsas neuwiedi	<b>Família:</b>	Dipsadidae</p>
+              <p>Dipsas neuwiedi é uma pequena espécie de serpente não peçonhenta da família Dipsadidae endêmica da Mata Atlântica. Ocorre ao longo de praticamente toda a costa brasileira. É uma espécie terrestre e possui hábitos noturnos. Devido ao seu padrão de cores, é frequentemente confundida com espécies de jararaca, mas é totalmente inofensiva. Alimenta-se preponderantemente de moluscos. Esta espécie possui adaptações morfológicas no crânio e mandibulas as quais auxiliam na remoção de gastrópodes de suas conchas. Em algumas localidades do Brasil esta espécie é popularmente conhecida como cobra dormideira-cinzenta ou casco-de-burro.
+              </p>
+            </div>
+
+            <div id="Coral-falsa" class="sub-description-fauna">
+              <h2>Coral-falsa</h2>
+              <p><b>Espécie:</b>	Oxyrhopus rhombifer	<b>Família:</b>	Colubridae Oppel</p>
+              <p>A falsa-coral é encontrada em diversos habitats, incluindo florestas tropicais, savanas e áreas úmidas, em países como Brasil, Argentina, Paraguai e Uruguai. Ela é adaptada para viver tanto em ambientes terrestres quanto arborícolas. A Dipsas neuwiedi é uma serpente diurna e geralmente é considerada inofensiva para os seres humanos. Ela se alimenta principalmente de lagartos, anfíbios e pequenos vertebrados. Quando ameaçada, pode tentar imitar o comportamento de uma coral venenosa, realizando movimentos rápidos e exibindo as cores marcantes do seu corpo, no entanto ela possui uma cabeça arredondada, sem a forma triangular característica das serpentes venenosas.
+              </p>
+            </div>
+
+            <div id="Cobra-lisa" class="sub-description-fauna">
+              <h2>Cobra-lisa</h2>
+              <p><b>Espécie:</b>	Liophis miliaris	<b>Família:</b>	Colubridae Oppel</p>
+              <p>A cobra-lisa é uma serpente semi-aquática da família dos colubrídeos. Essas cobras são encontradas em várias regiões da América do Sul, incluindo Brasil, Argentina, Paraguai, Uruguai e partes da Bolívia e do Peru. Elas habitam uma variedade de habitats, como florestas, matagais, áreas urbanas e jardins, principalmente no cerrado e na mata atlântica. Possui corpo verde lustroso, escamas orladas de preto e partes inferiores amarelas. Essa espécie se alimenta especialmente de anfíbios. Também é conhecida pelos nomes de cobra-d'água, jararaca-do-tabuleiro e trairaboia. A reprodução dessas cobras ocorre por meio de oviparidade.
+              </p>
+            </div>
+
+            <!--SECOND TAB - Aves-->
+            <div class="fauna-menu">
+              <div id="Aves" class="tab-secundary-aves">
+                <button class="sub-tablink" onclick="tabbers(event, 'Codorna-amarela', 'tab-secundary-aves','fauna')"><span class="transition"></span><span class="text-name">Codorna-amarela</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Irerê', 'tab-secundary-aves','fauna')"><span class="transition"></span><span class="text-name">Irerê</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Marreca-de-coleira', 'tab-secundary-aves','fauna')"><span class="transition"></span><span class="text-name">Marreca-de-coleira</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Ananaí', 'tab-secundary-aves','fauna')"><span class="transition"></span><span class="text-name">Ananaí</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Aracuã-escamoso', 'tab-secundary-aves','fauna')"><span class="transition"></span><span class="text-name">Aracuã-escamoso</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Maguari', 'tab-secundary-aves','fauna')"><span class="transition"></span><span class="text-name">Maguari</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Cabeça-seca', 'tab-secundary-aves','fauna')"><span class="transition"></span><span class="text-name">Cabeça-seca</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Biguá', 'tab-secundary-aves','fauna')"><span class="transition"></span><span class="text-name">Biguá</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Biguatinga', 'tab-secundary-aves','fauna')"><span class="transition"></span><span class="text-name">Biguatinga</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Socó-boi', 'tab-secundary-aves','fauna')"><span class="transition"></span><span class="text-name">Socó-boi</span></button>
+              </div>
+
+              <div id="Aves-mobile" class="tab-secundary-aves-mobile">
+                <button class="sub-tablink" onclick="tabbers(event, 'Codorna-amarela', 'tab-secundary-aves-mobile','fauna')"><span class="transition"></span><span class="text-name">Codorna</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Irerê', 'tab-secundary-aves-mobile','fauna')"><span class="transition"></span><span class="text-name">Irerê</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Marreca-de-coleira', 'tab-secundary-aves-mobile','fauna')"><span class="transition"></span><span class="text-name">Marreca</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Ananaí', 'tab-secundary-aves-mobile','fauna')"><span class="transition"></span><span class="text-name">Ananaí</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Aracuã-escamoso', 'tab-secundary-aves-mobile','fauna')"><span class="transition"></span><span class="text-name">Aracuã</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Maguari', 'tab-secundary-aves-mobile','fauna')"><span class="transition"></span><span class="text-name">Maguari</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Cabeça-seca', 'tab-secundary-aves-mobile','fauna')"><span class="transition"></span><span class="text-name">Cabeça-seca</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Biguá', 'tab-secundary-aves-mobile','fauna')"><span class="transition"></span><span class="text-name">Biguá</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Biguatinga', 'tab-secundary-aves-mobile','fauna')"><span class="transition"></span><span class="text-name">Biguatinga</span></button>
+                <button class="sub-tablink" onclick="tabbers(event, 'Socó-boi', 'tab-secundary-aves-mobile','fauna')"><span class="transition"></span><span class="text-name">Socó-boi</span></button>
+              </div>
+            </div>
+
+            <div id="Codorna-amarela" class="sub-description-fauna">
+              <h2>Codorna-amarela</h2>
+              <p><b>Espécie:</b>	Nothura maculosa	<b>Família:</b>	Tinamidae</p>
+              <p>A codorna é uma ave de pequeno porte originária da Ásia, mas criada em muitas partes do mundo por sua carne e pelos ovos que produzem. Na natureza, ocorre no Brasil, Paraguai, Uruguai e leste e norte da Argentina. Mesmo que frequentemente sejam criadas em cativeiro, as codornas podem ser encontradas em ambientes naturais, como campos abertos, pastagens e terrenos agrícolas. As codornas são aves sociáveis e preferem viver em grupos. Elas são aves terrestres e têm a habilidade de voar, embora geralmente prefiram se deslocar correndo pelo chão. São aves de hábitos diurnos e se alimentam principalmente de sementes, insetos e outros pequenos invertebrados.
+              </p>
+            </div>
+
+            <div id="Irerê" class="sub-description-fauna">
+              <h2>Irerê</h2>
+              <p><b>Espécie:</b>	Dendrocygna viduata	<b>Família:</b>	Anatidae Dendrocygninae</p>
+              <p>O irerê é uma ave de médio a grande porte de uma espécie adaptável que pode ser encontrada em diversos habitats, como manguezais, pântanos, lagoas, margens de rios e áreas alagadas. Sua distribuição geográfica se estende desde o sul dos Estados Unidos, passando pela América Central, até o norte da Argentina. Sendo uma ave social que geralmente é vista em bandos ou colônias. Eles são conhecidos por sua habilidade em voar em formação, formando belos padrões no céu. Alimentam-se principalmente de crustáceos, moluscos, insetos aquáticos, pequenos peixes e outros animais aquáticos, que capturam com o bico longo. 
+              </p>
+            </div>
+
+            <div id="Marreca-de-coleira" class="sub-description-fauna">
+              <h2>Marreca-de-coleira</h2>
+              <p><b>Espécie:</b>	Callonetta leucophrys	<b>Família:</b>	Anatidae</p>
+              <p>Essas aves são encontradas em diferentes habitats aquáticos, como lagos, lagoas, rios e pântanos, geralmente em áreas de vegetação aquática densa. Sua distribuição geográfica abrange várias regiões da América do Sul, incluindo Brasil, Argentina, Paraguai, Uruguai e partes do Chile e do Peru. A marreca-de-coleira é geralmente uma ave tranquila e sociável. Elas formam pequenos grupos e são frequentemente encontradas em companhia de outras aves aquáticas. Essas aves são excelentes nadadoras e mergulhadoras, alimentando-se principalmente de plantas aquáticas, sementes, insetos e pequenos crustáceos.
+              </p>
+            </div>
+
+            <div id="Ananaí" class="sub-description-fauna">
+              <h2>Ananaí</h2>
+              <p><b>Espécie:</b>	Amazonetta brasiliensis	<b>Família:</b>	Anatidae</p>
+              <p>Essas aves são encontradas em habitats aquáticos de água doce, como lagoas, rios, pântanos e áreas alagadas, principalmente em regiões da América do Sul, incluindo Brasil, Argentina, Paraguai, Uruguai e Bolívia. A marreca-cabocla é uma ave social que forma pequenos grupos ou bandos. Elas são excelentes nadadoras e se alimentam principalmente de plantas aquáticas, sementes, frutas e insetos. Elas também podem mergulhar em busca de alimentos. Os machos adultos têm uma plumagem marcante, com uma cabeça e pescoço de cor cinza-azulado, uma faixa branca ao redor dos olhos, e o resto do corpo em tons de marrom escuro. As fêmeas têm uma aparência mais discreta, com plumagem em tons de marrom.
+              </p>
+            </div>
+
+            <div id="Aracuã-escamoso" class="sub-description-fauna">
+              <h2>Aracuã-escamoso</h2>
+              <p><b>Espécie:</b>	Ortalis squamata	<b>Família:</b>	Cracidae</p>
+              <p>Essas aves são encontradas em habitats úmidos e florestas tropicais da América do Sul, principalmente na região amazônica, incluindo países como Brasil, Colômbia, Venezuela, Guiana e Suriname. O aracuã-escamoso é conhecido por seu comportamento peculiar. Eles são aves arborícolas e passam a maior parte do tempo em árvores próximas a rios e lagos. Essas aves são excelentes nadadoras e são capazes de mergulhar na água para escapar de predadores. A dieta do aracuã-escamoso é principalmente composta por folhas, brotos e flores. Eles têm um sistema digestivo especializado que permite fermentar a comida, o que ajuda na digestão de materiais vegetais difíceis.
+              </p>
+            </div>
+
+            <div id="Maguari" class="sub-description-fauna">
+              <h2>Maguari</h2>
+              <p><b>Espécie:</b>	Ciconia maguari	<b>Família:</b>	Ciconiidae</p>
+              <p>O maguari é uma ave de grande porte, sendo encontradas em áreas úmidas e habitats aquáticos, como pântanos, lagos, rios e manguezais, principalmente na região neotropical. Sua distribuição geográfica abrange grande parte da América do Sul, desde o sul do México até o norte da Argentina. O maguari é uma ave predominantemente solitária, mas também pode ser observado em pequenos grupos. São aves principalmente diurnas, sendo mais ativas nas primeiras horas da manhã e no final da tarde. Eles se alimentam principalmente de peixes, anfíbios, répteis, crustáceos e pequenos mamíferos, que capturam com seu longo bico.
+              </p>
+            </div>
+
+            <div id="Cabeça-seca" class="sub-description-fauna">
+              <h2>Cabeça-seca</h2>
+              <p><b>Espécie:</b>	Mycteria americana	<b>Família:</b>	Ciconiidae Sundevall</p>
+              <p>Essas aves são encontradas em florestas tropicais e subtropicais da América Central e do Sul. Sua distribuição geográfica abrange países como Brasil, Colômbia, Equador, Peru e Bolívia. A cabeça-seca é uma ave de hábitos noturnos, sendo mais ativa durante a noite. Ela possui uma audição apurada e uma visão aguçada, o que a torna uma excelente caçadora. Alimenta-se principalmente de pequenos mamíferos, aves, répteis e insetos. A cabeça-seca é considerada uma espécie pouco conhecida e com pouca informação disponível sobre sua população e status de conservação. No entanto, devido à destruição de habitats naturais e à fragmentação florestal, é provável que a espécie enfrente ameaças.
+              </p>
+            </div>
+
+            <div id="Biguá" class="sub-description-fauna">
+              <h2>Biguá</h2>
+              <p><b>Espécie:</b>	Nannopterum brasilianus	<b>Família:</b>	Phalacrocoracidae</p>
+              <p>O Biguá é encontrado em uma variedade de habitats aquáticos, como rios, lagos, estuários, manguezais e áreas costeiras. Sua distribuição geográfica abrange grande parte das Américas, incluindo a América do Norte, Central e do Sul. No Brasil, é comum em diversas regiões do país. Ele é conhecido por sua habilidade de mergulhar profundamente na água em busca de peixes, sua principal fonte de alimento. O Biguá também é conhecido por sua habilidade de nadar com o pescoço estendido e as asas abertas. Sua dieta consiste principalmente de peixes, embora ele também possa se alimentar de crustáceos, moluscos e outras presas aquáticas. 
+              </p>
+            </div>
+
+            <div id="Biguatinga" class="sub-description-fauna">
+              <h2>Biguatinga</h2>
+              <p><b>Espécie:</b>	Anhinga anhinga	<b>Família:</b>	Anhingidae</p>
+              <p> As Biguatingas são encontradas em áreas úmidas e corpos d'água do continente americano, incluindo a América do Norte, Central e do Sul. Elas preferem habitats como pântanos, lagoas, rios, lagos e manguezais. Essas aves são especializadas em mergulho para pescar. Elas possuem uma estrutura corporal aerodinâmica e nadam submersas, deixando apenas o pescoço e a cabeça expostos. Sua alimentação consiste principalmente de peixes, que são capturados com o bico afiado. Após a pesca, elas podem ser vistas empoleiradas em galhos ou estruturas próximas à água, estendendo suas asas para secar as penas.
+              </p>
+            </div>
+
+            <div id="Socó-boi" class="sub-description-fauna">
+              <h2>Socó-boi</h2>
+              <p><b>Espécie:</b>	Tigrisoma lineatum	<b>Família:</b>	Ardeidae</p>
+              <p>Essas aves são encontradas em habitats aquáticos, como rios, lagos, lagoas, pântanos e manguezais. Sua distribuição geográfica abrange uma grande parte da América do Sul, incluindo países como Brasil, Argentina, Paraguai, Uruguai e Bolívia. O socó-boi é uma ave solitária e costuma ser encontrada em áreas com vegetação densa perto da água. Ele é um pescador habilidoso, alimentando-se principalmente de peixes, crustáceos, anfíbios e outros pequenos animais aquáticos. Ele pode ficar imóvel por longos períodos de tempo, esperando pacientemente por sua presa antes de se lançar rapidamente para capturá-la. Durante a época de reprodução, o socó-boi forma casais monogâmicos.
+              </p>
+            </div>
+
+        </section> 
+      </section><!--Tabber-->
+
+      <!--MAP-->
+      <div class="int-map">
+        <h1>Mapa Interativo</h1>
+        <div class="title-divider"></div>
+        <!--INTERACTIVE-->
+        <div class="mapa-interativo">
+
+          <div class="pontos">
+            <a data-toggle="modal" href="#aranha-modal" id="aranha-loc" class="modal-loc"><img src="img/loc.png" alt="aranha"></a>
+    
+            <a data-toggle="modal" href="#saracura-modal" id="saracura-loc" class="modal-loc"><img src="img/loc.png" alt="saracura"></a>
+    
+            <a data-toggle="modal" href="#garca-modal" id="garca-loc" class="modal-loc"><img src="img/loc.png" alt="garça-branca"></a>
+    
+            <a data-toggle="modal" href="#lagarto-modal" id="lagarto-loc" class="modal-loc"><img src="img/loc.png" alt="lagarto"></a>
+    
+            <a data-toggle="modal" href="#prea-modal" id="prea-loc" class="modal-loc"><img src="img/loc.png" alt="prea"></a>
+    
+            <a data-toggle="modal" href="#tupicuru-modal" id="tupicuru-loc" class="modal-loc"><img src="img/loc.png" alt="tupicuru"></a>
+    
+            <a data-toggle="modal" href="#pica-pau-modal" id="pica-pau-loc" class="modal-loc"><img src="img/loc.png" alt="pica-pau"></a>
+    
+            <a data-toggle="modal" href="#gaviao-modal" id="gaviao-loc" class="modal-loc"><img src="img/loc.png" alt="gaviao"></a>
+    
+            <a data-toggle="modal" href="#anu-preto-modal" id="anu-preto-loc" class="modal-loc"><img src="img/loc.png" alt="anu-preto"></a>
+
+          </div>
+
+          <div class="map"><img src="img/mapa-interativo/mapa-base/mapa-base-540px.jpg" alt="Mapa Interativo"></div>
+          <div class="map-mobile"><img src="img/mapa-interativo/mapa-base/mapa-base-480px.jpg" alt="Mapa Interativo"></div>
+
+          <div class="map-info">
+            <div class="map-title">
+              <img src="img/animal-loc.png" alt="localização">
+              <h1>Mato do Júlio</h1>
+            </div>
+              <h2>A imagem ao lado conta com a visao total da área conhecida como “Mato do Júlio”, importante fator para o equilíbrio entre desenvolvimento econômico e qualidade ambiental na cidade de Cachoeirinha.
+              </h2>
+              <p>Em seus aproximadamente 256 hectares, o Mato do Júlio se apresenta como uma importantíssima reserva ecológica para a cidade e para o Vale do Gravataí, abrigando espécies nativas da Mata Atlântica que originalmente fizeram parte desta região. Quanto a fauna este é um espaço quase que único, que abriga grande quantidade de mamíferos, répteis e anfíbios. Além disso, serve de abrigo e local para nidificação da avifauna.</p>
+            <div class="para-saber-mais">
+              <h1>Para saber mais:</h1> 
+              <p>Clique nos pontos indicados para saber mais informações sobre a fauna e flora local.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+ 
+      <!--MODAL-->
+      <div id="aranha-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <img src="img/animal-loc.png" alt="localização">
+              <h4>Localização no Mato</h4>
+              <button class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+
+            <div class="modal-body">
+              <img src="img/mapa-interativo/animais-mapa-resized/aranha-do-fio-de-ouro.jpg" alt="garça-branca">
+              <div class="modal-info">
+                <h4>Aranha do fio de ouro</h4>
+                <p>Nephila clavipes é uma espécie comum de aranha. Vive nas regiões mais quentes das Américas, podendo ser encontrada da Argentina aos Estados Unidos, o que inclui também o Brasil. Como é comum nas espécies do mesmo gênero, a fêmea é muitas vezes maior do que o macho. As fêmeas destas aranhas constroem teias enormes, muito bem elaboradas e simétricas, às vezes chegando a 1 metro de diâmetro. Elas as elaboram estrategicamente entre os galhos das árvores, numa altura em que costumam voar insetos, como borboletas, mariposas, gafanhotos, de que essas aranhas se alimentam. A seda pegajosa de sua teia é conhecida por sua grande resistência. Tamanha resistência faz com que até mesmo pequenos pássaros, em pleno voo, sejam capturados pela teia.</p>
+              </div>
+            </div>
+            
+            <div class="modal-footer">
+              <button class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="saracura-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <img src="img/animal-loc.png" alt="localização">
+              <h4>Localização no Mato</h4>
+              <button class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+
+            <div class="modal-body">
+              <img src="img/mapa-interativo/animais-mapa-resized/saracura-do-mato.jpg" alt="garça-branca">
+              <div class="modal-info">
+                <h4>Saracura-do-mato</h4>
+                <p>É encontrado em florestas e matas, preferindo as áreas pantanosas e alagadiças, e geralmente é difícil de ver. Ocorre no sudeste do Brasil e nas partes vizinhas do Paraguai e Argentina. Vive aos pares ou formando pequenos grupos.  É uma ave desajeitada que passa a maior parte do tempo no chão, andando ou correndo de um lado para o outro. A saracura passa o dia escondida em silêncio, mas nas horas do alvorecer e do fim da tarde, ouve-se seu canto que, segundo a crença popular, é um aviso que vai chover.</p>
+              </div>
+            </div>
+            
+            <div class="modal-footer">
+              <button class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="garca-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <img src="img/animal-loc.png" alt="localização">
+              <h4>Localização no Mato</h4>
+              <button class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+
+            <div class="modal-body">
+              <img src="img/mapa-interativo/animais-mapa-resized/garça-branca-pequena.jpg" alt="garça-branca">
+              <div class="modal-info">
+                <h4>Garça-branca-pequena</h4>
+                <p>O nome desta garça-branca é pequena, mas ela não é tanto assim. Ela costuma medir entre 51 e 61 centímetros. Dona de uma plumagem alva, com bico e tarsos (terceiro segmento dos pés das aves) negros e os pés amarelos (diga-se, os dois grandes diferenciais em relação às demais aves de sua espécie). Conhecida como garcinha-branca, garça-pequena e garcinha, é uma das mais comuns em todo o continente.  Costuma pescar em águas rasas, ao lado de outras aves aquáticas. Como realiza deslocamentos sazonais, por vezes torna-se abundante em certos locais por um período. Nessas ocasiões, em função de suas fezes ácidas, pode causar danos temporários à vegetação.</p>
+              </div>
+            </div>
+            
+            <div class="modal-footer">
+              <button class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="lagarto-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <img src="img/animal-loc.png" alt="localização">
+              <h4>Localização no Mato</h4>
+              <button class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+
+            <div class="modal-body">
+              <img src="img/mapa-interativo/animais-mapa-resized/lagarto-teiú.jpg" alt="lagarto">
+              <div class="modal-info">
+                <h4>Lagarto Teiú</h4>
+                <p>O Lagarto Teiú é um dos maiores lagartos do Brasil e o mais pesado deles. É uma espécie de lagarto que habita grande parte do Brasil, muito comum nos pampas sul-americanos. Ele pode medir até dois metros de tamanho total e chegar a cerca de 10 quilos adulto. Este animal se alimenta desde frutas, insetos até roedores, aves e cobras.</p>
+              </div>
+            </div>
+            
+            <div class="modal-footer">
+              <button class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="prea-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <img src="img/animal-loc.png" alt="localização">
+              <h4>Localização no Mato</h4>
+              <button class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+
+            <div class="modal-body">
+              <img src="img/mapa-interativo/animais-mapa-resized/preá.jpg" alt="prea">
+              <div class="modal-info">
+                <h4>Preá</h4>
+                <p>Pesam de 500 à 800g. Possuem cauda atrofiada e densa pelagem de tons castanho-escuro à cinza-claro à amarelado no dorso e no ventre tons branco-amarelados à alaranjado. Comem grãos e folhas. Fêmeas podem ter 2 ninhadas por ano, cada ninhada de 1 à 5 filhotes.</p>
+              </div>
+            </div>
+            
+            <div class="modal-footer">
+              <button class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="tupicuru-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <img src="img/animal-loc.png" alt="localização">
+              <h4>Localização no Mato</h4>
+              <button class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+
+            <div class="modal-body">
+              <img src="img/mapa-interativo/animais-mapa-resized/tupicuru.jpg" alt="tupicuru">
+              <div class="modal-info">
+                <h4>Tupicuru</h4>
+                <p>Vive em brejos, margens de rios, arroios, banhados e campos recentemente arados. Dorme em áreas abertas ou pousado no solo.</p>
+              </div>
+            </div>
+            
+            <div class="modal-footer">
+              <button class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="pica-pau-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <img src="img/animal-loc.png" alt="localização">
+              <h4>Localização no Mato</h4>
+              <button class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+
+            <div class="modal-body">
+              <img src="img/mapa-interativo/animais-mapa-resized/pica-pau-verde-barrado.jpg" alt="tupicuru">
+              <div class="modal-info">
+                <h4>Pica-pau-verde-barrado</h4>
+                <p>Vive em matas de galeria, cerrados, cerradões, caatingas, campos com árvores e na borda de florestas. É cada vez mais comum em áreas urbanas. Ocorre desde a foz do rio Amazonas (ilha de Marajó) até o Rio Grande do Sul, e para oeste até o Mato Grosso. É encontrado também no Paraguai, Argentina e Uruguai. Alimenta-se de formigas e larvas de outros insetos, principalmente besouros. Come também frutos carnosos, principalmente no inverno, quando diminui a quantidade de insetos.</p>
+              </div>
+            </div>
+            
+            <div class="modal-footer">
+              <button class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="gaviao-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <img src="img/animal-loc.png" alt="localização">
+              <h4>Localização no Mato</h4>
+              <button class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+
+            <div class="modal-body">
+              <img src="img/mapa-interativo/animais-mapa-resized/gavião-carijó.jpg" alt="tupicuru">
+              <div class="modal-info">
+                <h4>Gavião-carijó</h4>
+                <p>O gavião-carijó (Rupornis magnirostris ou Buteo magnirostris) é uma ave de rapina Accipitriforme da família Accipitridae. Encontrado em diferentes ambientes, ocorrendo do México à Argentina e em todo o Brasil. É a espécie predominante no Brasil. É o terror dos galinheiros. Também é conhecido pelos nomes de anajé, gavião-indaié, gavião-pinhel, gavião-pega-pinto, inajé, gavião-pinhé, indaié, pega-pinto e papa-pinto. Como toda ave de rapina, tem um papel indispensável no equilíbrio da fauna, como regulador da seleção. Evita uma superpopulação de roedores e aves pequenas (como é o caso dos ratos e pombos nos centros urbanos), além de eliminar indivíduos defeituosos e doentes.</p>
+              </div>
+            </div>
+            
+            <div class="modal-footer">
+              <button class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="anu-preto-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <img src="img/animal-loc.png" alt="localização">
+              <h4>Localização no Mato</h4>
+              <button class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+
+            <div class="modal-body">
+              <img src="img/mapa-interativo/animais-mapa-resized/anú-preto.jpg" alt="tupicuru">
+              <div class="modal-info">
+                <h4>Anú-preto</h4>
+                <p>Vive nas paisagens abertas com moitas e capões entre pastos e jardins; ao longo das rodovias costuma ser quase a única que sempre se vê, como habitante mais comum de lavouras abandonadas. Prefere lugares úmidos. Ocorre da Flórida à Argentina e em todo o Brasil.</p>
+              </div>
+            </div>
+            
+            <div class="modal-footer">
+              <button class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+ 
+      <!--CONTATO-->
+      <section class="contact">
+        <div class="contact-column">
+          <a class="contact-logo">
+            <img src="img/mato logo2.png" alt="Logo Mato">
+          </a>
+          <p class="contact-text">
+            Somos um coletivo de pessoas que luta pela preservação da fauna e flora da floresta Mato do Júlio, em Cachoeirinha, Rio Grande do Sul.
+          </p>
+          <h1>Ajude a causa</h1>
+          <button class="button-contact" onClick="location.href='https://apoia.se/coletivomatodojulio'">doe</button>
+        </div>
+
+        <div class="first-column">
+          <h2>Quem somos</h2>
+          <ul class="sub-contact">
+            <li><a href="quem-somos.html"><img src="img/right-arrow-bold.png" alt="Sobre o Coletivo"> Sobre o Coletivo</a></li>            <li><a href="https://api.whatsapp.com/send?phone=5551986095637"><img src="img/right-arrow-bold.png" alt="Trabalhe conosco"> Trabalhe conosco</a></li>
+          </ul>
+
+          <h2>Nossos produtos</h2>
+          <ul class="sub-contact">
+            <li><a href="produtos-camiseta.html"><img src="img/right-arrow-bold.png" alt=""> Camisetas "Salve o Mato"</a></li>
+            <li><a href="produtos-caneca.html"><img src="img/right-arrow-bold.png" alt="Canecas com logo exclusiva"> Canecas com logo exclusiva</a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=5551986095637"><img src="img/right-arrow-bold.png" alt="Saiba mais sobre os produtos"> Saiba mais sobre os produtos</a></li>
+          </ul>
+        </div>
+
+        <div class="second-column">
+          <h2> Contatos importantes </h2>
+          <ul class="sub-contact">
+            <li><a href="https://www.instagram.com/apn.vg/"><img src="img/right-arrow-bold.png" alt=""> Associação de Preservação da Natureza</a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=5551985931288"><img src="img/right-arrow-bold.png" alt="Resgate de Fauna Silvestre"> Resgate de Fauna Silvestre</a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=5551932897517"><img src="img/right-arrow-bold.png" alt="Equipe de Fauna POA"> Equipe de Fauna POA</a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=5551933417664"><img src="img/right-arrow-bold.png" alt="Toca dos Bichos"> Toca dos Bichos</a></li>
+            <li><a href="https://www.flaticon.com/br/" title="ícones"><br> Ícones criados por Flaticon</a></li>
+          </ul>
+        </div>
+      </section>
+
+
+      <!--FOOTER-->
+      <div class="footer">
+        <p> © 2023, Coletivo Mato do Júlio. </p>
+        <div class="contact-footer">
+          <ul class="social-icons">
+            <li><a class="whatsapp" href="https://api.whatsapp.com/send?phone=5551986095637" rel="noopener" target="_blank"><img src="img/whatsapp.png" alt="whatsapp"></a></li>
+            <li><a class="instagram" href="https://www.instagram.com/matodojulio/" rel="noopener" target="_blank"><img src="img/instagram.png" alt="instagram"></a></li>
+            <li><a class="facebook" href="https://www.facebook.com/matodojulio?mibextid=LQQJ4d" rel="noopener" target="_blank"><img src="img/facebook.png" alt="facebook"></a></li>
+            <li><a class="tiktok" href="https://www.tiktok.com/@matodojulio_?_t=8a7WV5IwKog&_r=1" rel="noopener" target="_blank"><img src="img/tiktok.png" alt="tiktok"></a></li>
+          </ul>
+        </div>
+      </div>
+      
+    </section> <!--CONTAINER-->
+
+  <button onclick="topFunction()" class="back-top">&#8593;</button>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- Optional JavaScript -->
+  <script type="text/javascript" src="js/script.js"></script>
+  
+  </body>
+</html>

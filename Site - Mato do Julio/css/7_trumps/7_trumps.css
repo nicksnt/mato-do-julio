@@ -1,0 +1,1317 @@
+@media screen and (min-width: 1200px) {
+    .home-img-resized-1200, .home-img-resized-900, .home-img-resized-480, .home-img-resized-425, .home-img-resized-375 {
+        display: none;
+    }
+
+    .home-img {
+        display: block;
+    }
+
+    .slider-info-mobile {
+        display: none;
+    }
+
+    .first-column > h2, .second-column > h2 {
+        text-transform: uppercase;
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #brand {
+        margin-right: 5vw;
+    }
+
+    #donate {
+        display: none;
+    }
+
+    #donate-mobile {
+        display: block;
+    }
+
+    .submenu {
+        width: 9.3vw;
+    }
+
+    #sobre-mato > ul {
+        width: 12vw;
+    }
+
+    .ajude-button {
+        width: 7vw;
+    }
+
+    .home-img {
+        display: none;
+    }
+
+    .home-img, .home-img-resized-900, .home-img-resized-480, .home-img-resized-425, .home-img-resized-375 {
+        display: none;
+    }
+
+    .home-img-resized-1200 {
+        display: block;
+    }
+
+    .midia, .fauna-flora, .cuidados {
+        width: 28vw;
+        height: 70vh;
+    }
+
+    .camisetas, .canecas, .ajude-nos {
+        width: 25vw;
+        height: 65vh;
+        margin: 1vw;
+        border-radius: 15px;
+    }
+
+    /* HISTORIA */
+    .dot {
+        top: calc(143% - 5px);
+        left: calc(1% + 20%);
+    }
+
+    .tooltip {
+        top: 150%;
+        left: 10%;
+        right: 10%;
+    }
+
+    /* PRODUTOS */
+
+    .slider-produtos {
+        width: 55vw;
+        height: 85vh;
+        padding: 3vh 3vw 3vh 3vw;
+    }
+
+    .slider-info-mobile {
+        display: none;
+    }
+
+    /* PONTOS */
+
+    #aranha-loc > img {
+        position: absolute;
+        top: 4vh;
+        left: 27.5vw;
+    }
+
+    #saracura-loc {
+        position: absolute;
+        top: 5.5vh;
+        left: 28.7vw;
+    }
+
+    #garca-loc {
+        position: absolute;
+        top: 5.2vh;
+        left: 21vw;
+    }
+
+    #lagarto-loc {
+        position: absolute;
+        top: 5.5vh;
+        left: 26.3vw;
+    }
+
+    #prea-loc {
+        position: absolute;
+        top: 60.5vh;
+        left: 30.5vw;
+    }
+
+    #tupicuru-loc {
+        position: absolute;
+        top: 67.5vh;
+        left: 30.5vw;
+    }
+
+    #pica-pau-loc {
+        position: absolute;
+        top: 70.5vh;
+        left: 28vw;
+    }
+
+    #gaviao-loc {
+        position: absolute;
+        top: 72vh;
+        left: 17vw;
+    }
+
+    #anu-preto-loc {
+        position: absolute;
+        top: 71.5vh;
+        left: 25.9vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    /* MENU */
+    #brand {
+        margin-right: 2vw;
+    }
+
+    #brand > h1 {
+        display: none;
+    }
+
+    /*HOME*/
+    .home-img, .home-img-resized-1200, .home-img-resized-900, .home-img-resized-480, .home-img-resized-425, .home-img-resized-375 {
+        display: none;
+    }
+
+    .home-img-resized-1024 {
+        display: block;
+    }
+
+    .home-principal {
+        height: 75vh;
+    }
+
+    .home-info {
+        width: 45vw;
+    }
+
+    .ajude-button {
+        width: 9vw;
+    }
+
+    .home-media-icon {
+        width: 9vw;
+    }
+
+    .media-divider {
+        margin: 0 1vw 0 2vw;
+    }
+
+    .home-action > h1, .home-help > h1 {
+        font-size: x-large;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 2vh 0 1vh 0;
+    }
+
+    .home-help > h2 {
+        font-size: large;
+        text-align: center;
+    }
+
+    .home-action-tab > div > h1, .home-help-tab > div > h1 {
+        margin: 2vh 0 1vh 0;
+        font-size: medium;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .home-action-tab > div > h2, .home-help-tab > div > h2 {
+        font-size: medium;
+        font-weight: 400;
+    }
+
+    .midia, .fauna-flora, .cuidados {
+        width: 30vw;
+        height: 75vh;
+    }
+
+    .camisetas, .canecas, .ajude-nos {
+        width: 29vw;
+        height: 63vh;
+    }
+
+    .saiba-mais {
+        width: 15vw;
+    }
+
+    .coletivo-mato-info {
+        margin: 0 3vw 0 1vw;
+    }
+
+    .quem-somos > img {
+        border-radius: 5px;
+        height: 530px;
+        margin: 3vh 4vh 3vh 3vh;
+    }
+
+
+    /* HISTORIA */
+    .dot {
+        top: calc(143% - 5px);
+        left: calc(3% + 20%);
+    }
+
+    /* PRODUTOS */
+
+    .slider-produtos {
+        width: 65vw;
+        height: 85vh;
+        padding: 3vh 3vw 3vh 3vw;
+    }
+
+    .size > button {
+        width: 5vw;
+    }
+
+    .buy > button > a {
+        width: 19vw;
+        height: 6vh;
+    }
+
+    .buy > button > a > img {
+        margin-left: 1vw;
+    }
+
+    .gender > button {
+        width: 10vw;
+    }
+
+    /* PONTOS */
+
+    #aranha-loc > img {
+        position: absolute;
+        top: 4vh;
+        left: 32vw;
+    }
+
+    #saracura-loc {
+        position: absolute;
+        top: 5.5vh;
+        left: 34vw;
+    }
+
+    #garca-loc {
+        position: absolute;
+        top: 5.2vh;
+        left: 24.5vw;
+    }
+
+    #lagarto-loc {
+        position: absolute;
+        top: 5.5vh;
+        left: 30vw;
+    }
+
+    #prea-loc {
+        position: absolute;
+        top: 60.5vh;
+        left: 35.5vw;
+    }
+
+    #tupicuru-loc {
+        position: absolute;
+        top: 67.5vh;
+        left: 35.5vw;
+    }
+
+    #pica-pau-loc {
+        position: absolute;
+        top: 70.5vh;
+        left: 33vw;
+    }
+
+    #gaviao-loc {
+        position: absolute;
+        top: 72vh;
+        left: 20vw;
+    }
+
+    #anu-preto-loc {
+        position: absolute;
+        top: 71.5vh;
+        left: 30vw;
+    }
+
+    /*CONTACT*/
+    .contact {
+        width: 150%;
+        margin-left: -22%;
+        align-items: baseline;
+    }
+
+    .contact-column {
+        width: 23%;
+    }
+
+    .contact-text {
+        text-align: center;
+    }
+
+    .first-column {
+        margin-left: 1%;
+    }
+
+    .first-column > h2, .second-column > h2 {
+        text-transform: uppercase;
+        font-size: larger;
+    }
+
+    .back-top {
+        display: none;
+    }
+
+    /*SOBRE O MATO*/
+    .tablink, .sub-tablink {
+        width: 18vw;
+    }
+
+    .flora {
+        display: inline-block;
+    }
+
+    .description-main-flora > h2, .description-flora > h2 {
+        font-size: larger;
+    }
+
+    .tab-intro {
+        margin-right: 2vw;
+    }
+
+    .tablink {
+        display: inline-flex;
+        flex-flow: row wrap;
+        width: 21.82vw;
+    }
+
+    .tab-primary-one {
+        display: none;
+    }
+
+    .tab-primary-one-mobile {
+        display: block;
+    }
+
+    .tab-primary-two {
+        display: none;
+    }
+    
+    .tab-primary-two-mobile {
+        display: flex;
+        width: 98%;
+        justify-content: flex-end;
+        margin-right: 15px;
+    }
+
+    .tab-secundary-mamiferos, .tab-secundary-repteis, .tab-secundary-aves {
+        display: none;
+    }
+
+    .tab-secundary-mamiferos-mobile {
+        display: block;
+    }
+
+    .tab-secundary-repteis-mobile, .tab-secundary-aves-mobile {
+        display: none;
+    }
+
+    .tab-intro {
+        text-align: justify;
+    }
+
+    .description-main > h2, .description > h2, .sub-description > h2 {
+        color: var(--text-dark);
+        font-size: large;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin: 0 0 7px 0;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    /*MENU*/
+    .header {
+        justify-content: left;
+    }
+
+    #brand > h1 {
+        display: none;
+    }
+
+    #brand > h2 {
+        display: block;
+        width: 20vw;
+        margin-left: 18vw;
+        font-size: x-large;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    #donate {
+        display: none;
+    }
+
+    #donate-mobile {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .home-img, .home-img-resized-1200, .home-img-resized-1024, .home-img-resized-480, .home-img-resized-425, .home-img-resized-375 {
+        display: none;
+    }
+
+    .home-img-resized-900 {
+        display: block;
+    }
+
+    .home-principal {
+        height: 57vh;
+    }
+
+    .home-info > h2 {
+        display: none;
+    }
+
+    .home-action-tab > div > h2 {
+        display: none;
+    }
+
+    .home-action-tab > div > h3 {
+        display: block;
+        margin: 0 2vw 0 2vw;
+    }
+
+    .midia, .fauna-flora, .cuidados {
+        width: 27vw;
+        height: 76vh;
+    }
+
+    .midia > img, .fauna-flora > img, .cuidados > img {
+        width: 110px;
+    }
+
+    .fauna-flora > h1 {
+        width: 20vw;
+        text-align: center;
+    }
+
+    .camisetas, .canecas, .ajude-nos {
+        width: 27vw;
+        height: 57vh;
+    }
+
+    .camisetas > img, .canecas > img, .ajude-nos > img {
+        width: 225px;
+        border-radius: 15px;
+    }
+
+    .saiba-mais {
+        width: 15vw;
+    }
+
+    .politica, .palestras, .participa, .resgate, .divulga, .cataloga, .plantacao, .alimento, .pesquisa {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 1vh 0.8vw 1vh 0.8vw;
+        width: 40%;
+    }
+
+    /* HISTORIA */
+    .dot {
+        top: calc(201% - 5px);
+        left: calc(3% + 20%);
+    }
+
+    .tooltip {
+        top: 210%;
+        left: 10%;
+        right: 10%;
+    }
+
+    /* TABBER */
+    .tablink {
+        width: 18.22vw;
+    }
+
+    .quem-somos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-how-mobile{
+        display: flex;
+    }
+
+    .home-how {
+        display: none;
+    }
+
+    .coletivo-mato-info {
+        margin-left: 2.5vw;
+        width: 57%;
+        margin-bottom: 3vh;
+    }
+
+    .quem-somos > img {
+        margin: 0vh 3vh 2vh 3vh;
+    }
+
+    .quem-somos {
+        margin: 0 0 4vh 0;
+    }
+
+    .coletivo-mato-info > p {
+        font-size: 1.1rem;
+        margin-bottom: 2vh;
+    }
+    /* PRODUTOS */
+    .slider-produtos {
+        margin-left: 1.5vw;
+        padding: 3vh 3vw 3vh 3vw;
+    }
+
+    .slider-info {
+        display: none;
+    }
+
+    .description-product > h2 {
+        margin-top: 0;
+    }
+
+    .slider-info-mobile {
+        display: block;
+        margin-left: 5vw;
+        margin-bottom: 5vh;
+    }
+    
+    .slider-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buy > button > a {
+        width: 20vw;
+        height: 6vh;
+    }
+
+    .size >  button {
+        width: 5vw;
+    }
+
+    .gender > button {
+        width: 13vw;
+    }
+
+    /* MAP */
+    .mapa-interativo {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .map-title, .map-info > h1, .map-info > h2, .map-info > p {
+        display: none;
+    }
+
+    .modal-body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .modal-info > h4 {
+        margin-top: 2vh;
+    }
+
+    /* PONTOS */
+
+    #aranha-loc > img {
+        position: absolute;
+        top: 4vh;
+        left: 35vw;
+    }
+
+    #saracura-loc {
+        position: absolute;
+        top: 5.5vh;
+        left: 37.5vw;
+    }
+
+    #garca-loc {
+        position: absolute;
+        top: 5.2vh;
+        left: 26.8vw;
+    }
+
+    #lagarto-loc {
+        position: absolute;
+        top: 5.5vh;
+        left: 32.5vw;
+    }
+
+    #prea-loc {
+        position: absolute;
+        top: 60.5vh;
+        left: 39.5vw;
+    }
+
+    #tupicuru-loc {
+        position: absolute;
+        top: 67.5vh;
+        left: 39.3vw;
+    }
+
+    #pica-pau-loc {
+        position: absolute;
+        top: 70.5vh;
+        left: 36vw;
+    }
+
+    #gaviao-loc {
+        position: absolute;
+        top: 72vh;
+        left: 23vw;
+    }
+
+    #anu-preto-loc {
+        position: absolute;
+        top: 71.5vh;
+        left: 32vw;
+    }
+
+    .para-saber-mais {
+        width: 560px;
+    }
+
+    .contact-column > h1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* MENU */
+    .menu-toggle {
+        display: block;
+        position: relative;
+        top: 10vh;
+        margin: 21% 0 0 8%;
+    }
+
+    .menu {
+        width: 38vw;
+        position: relative;
+        right: 65px;
+    }
+
+    /*HOME*/
+    .home-action-tab, .home-help-tab {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2vh;
+    }
+
+    .home-info {
+        width: 50vw;
+    }
+
+    #brand > h2 {
+        width: 25vw;
+        margin-left: 21vw;
+    }
+
+    .ajude-button {
+        width: 15vw;
+    }
+
+    .home-media-icon {
+        width: 15vw;
+    }
+
+    .media-divider {
+        margin: 0 2vw 0 4vw;
+    }
+    
+    .midia, .fauna-flora, .cuidados {
+        width: 60vw;
+        height: 50vh;
+    }
+
+    .fauna-flora > h1 {
+        width: 40vw;
+    }
+
+    .camisetas, .canecas, .ajude-nos {
+        width: 40vw;
+        height: 66vh;
+        margin-top: 2vh;
+    }
+
+    .camisetas > img, .canecas > img, .ajude-nos > img {
+        width: 270px;
+        border-radius: 15px;
+    }
+
+    .saiba-mais {
+        width: 30vw;
+        margin-bottom: 1vh;
+    }
+
+    .ajude-nos {
+        margin-bottom: 2vh;
+    }
+
+    .home-help > h2 {
+        display: none;
+    }
+
+    .buy > button > a {
+        width: 25vw;
+        height: 6vh;
+    }
+
+    .buy > button > a > img {
+        margin-left: 1vw;
+    }
+
+    .mato-about > div > p {
+        font-size: medium;
+        text-align: justify;
+    }
+    
+    /*TABBER*/
+    .tab-title {
+        font-size: x-large;
+    }
+
+    .tab-intro {
+        font-size: medium;
+        margin-right: 2vw;
+    }
+
+    .flora, .fauna {
+        display: inline-block;
+    }
+
+    .tablink {
+        display: inline-flex;
+        flex-flow: row wrap;
+        width: 21.35vw;
+    }
+
+    .sub-tablink {
+        display: inline-flex;
+        flex-flow: row wrap;
+        width: 43.5vw;
+    }
+
+    .main-tablink {
+        width: 35%;
+    }
+
+    /* PAGE */
+    .contact {
+        display: none;
+    }
+
+    .footer > p {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .menu-toggle {
+        display: block;
+        position: relative;
+        top: 10vh;
+        margin: 32% 0 0 -2%;
+    }
+
+    #brand > h2 {
+        width: 40vw;
+        margin-left: 10vw;
+    }
+
+    .home-img, .home-img-resized-1200, .home-img-resized-1024, .home-img-resized-900, .home-img-resized-425, .home-img-resized-375 {
+        display: none;
+    }
+
+    .home-img-resized-480 {
+        display: block;
+    }
+
+    .home-principal {
+        width: 80vw;
+        height: 85vh;
+    }
+
+    .media-divider {
+        height: 30vh;
+        margin: 0 3vw 0 4vw;
+    }
+
+    .home-media-icon {
+        margin-left: 1vw;
+    }
+
+    .home-social-icons {
+        margin-bottom: 0;
+    }
+
+    .home-info {
+        width: 54vw;
+    }
+
+    .home-info > h1 {
+        display: none;
+    }
+
+    .home-info > h3 {
+        display: none;
+    }
+
+    .home-info > h4 {
+        display: block;
+    }
+
+    .home-info > p {
+        display: block;
+    }
+
+    .ajude-button {
+        width: 17vw;
+    }
+
+    .midia, .fauna-flora, .cuidados {
+        width: 70vw;
+        height: 63vh;
+        margin-bottom: 2vh;
+    }
+
+    .fauna-flora > h1 {
+        width: 60vw;
+    }
+
+    .camisetas, .canecas, .ajude-nos {
+        width: 63vw;
+        height: 66vh;
+        margin-top: 2vh;
+    }
+
+    .home-action-tab > div > h3 {
+        display: none;
+    }
+
+    .home-action-tab > div > h2 {
+        display: block;
+        margin: 0 3vw 0 3vw;
+    }
+
+    .coletivo-mato-info {
+        width: 85%;
+    }
+
+    .make {
+        display: none;
+    }
+
+    .make-mobile{
+        display: block;
+        margin: 3vh 0 5vh 0;
+    }
+
+    /* PRODUTOS */
+    .slider-produtos {
+        display: none;
+    }
+
+    .slider-produtos-mobile {
+        display: flex;
+        height: 50vh;
+        margin-left: 2vw;
+        padding: 3vh 3vw 3vh 3vw;
+    }
+
+    .slider-info {
+        width: 75vw;
+    }
+
+    .slider-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gender > button {
+        width: 20vw;
+    }
+
+    .buy > button > a {
+        width: 38vw;
+        height: 6vh;
+    }
+
+    .buy > button > a > img {
+        margin-left: 2vw;
+    }
+
+    .size > button {
+        width: 8vw;
+    }
+
+    .slick-prev {
+        top: 154px !important;
+    }
+
+    .slick-next {
+        top: 154px !important;
+        left: 270px !important;
+    }
+
+    ul.slick-dots {
+        display: none;
+    }
+
+    /* TABBER */
+    .tablink {
+        width: 21.8vw;
+    }
+
+    .sub-tablink {
+        width: 44.5vw;
+    }
+
+    .para-saber-mais {
+        width: 460px;
+    }
+
+    .map {
+        display: none;
+    }
+
+    .map-mobile {
+        display: block;
+    }
+
+    .modal-content {
+        width: 89% !important;
+    }
+    
+    /* PONTOS */
+    #aranha-loc > img {
+        position: absolute;
+        top: 3vh;
+        left: 74vw;
+    }
+
+    #saracura-loc {
+        position: absolute;
+        top: 5.5vh;
+        left: 78vw;
+    }
+
+    #garca-loc {
+        position: absolute;
+        top: 5.2vh;
+        left: 58vw;
+    }
+
+    #lagarto-loc {
+        position: absolute;
+        top: 5.5vh;
+        left: 70vw;
+    }
+
+    #prea-loc {
+        position: absolute;
+        top: 60.5vh;
+        left: 82vw;
+    }
+
+    #tupicuru-loc {
+        position: absolute;
+        top: 67.5vh;
+        left: 82vw;
+    }
+
+    #pica-pau-loc {
+        position: absolute;
+        top: 70.5vh;
+        left: 75vw;
+    }
+
+    #gaviao-loc {
+        position: absolute;
+        top: 72vh;
+        left: 48vw;
+    }
+
+    #anu-preto-loc {
+        position: absolute;
+        top: 71.5vh;
+        left: 68vw;
+    }
+
+    .footer {
+        margin-top: -5vh;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .home-img, .home-img-resized-1200, .home-img-resized-1024, .home-img-resized-900, .home-img-resized-480, .home-img-resized-375 {
+        display: none;
+    }
+
+    .home-img-resized-425 {
+        display: block;
+    }
+
+    #brand > h2 {
+        width: 50vw;
+        margin-left: 5vw;
+    }
+
+    .menu-toggle {
+        display: block;
+        position: relative;
+        top: 10vh;
+        margin: 36% 0 0 -11%;
+    }
+
+    .header {
+        margin-bottom: 1vh;
+    }
+
+    .midia, .fauna-flora, .cuidados {
+        width: 78vw;
+        height: 63vh;
+        margin-bottom: 2vh;
+    }
+
+    .fauna-flora > h1 {
+        width: 40vw;
+    }
+
+    .camisetas, .canecas, .ajude-nos {
+        width: 69vw;
+        height: 64vh;
+        margin-top: 2vh;
+    }
+
+    .footer {
+        margin-top: -3vh;
+    }
+
+    /* HISTORIA */
+    .dot {
+        top: calc(210% - 5px);
+        left: calc(1% + 20%);
+    }
+
+    .tooltip {
+        top: 220%;
+        left: 10%;
+        right: 10%;
+    }
+
+     /* TABBER */
+     .tablink {
+        width: 21.5vw;
+    }
+
+    .sub-tablink {
+        width: 43.9vw;
+    }
+
+    .para-saber-mais {
+        width: 420px;
+    }
+
+    #aranha-loc > img {
+        position: absolute;
+        top: 3vh;
+        left: 84vw;
+    }
+
+    #saracura-loc {
+        position: absolute;
+        top: 5.5vh;
+        left: 89vw;
+    }
+
+    #garca-loc {
+        position: absolute;
+        top: 5.2vh;
+        left: 65vw;
+    }
+
+    #lagarto-loc {
+        position: absolute;
+        top: 5.5vh;
+        left: 78vw;
+    }
+
+    #prea-loc {
+        position: absolute;
+        top: 61vh;
+        left: 93vw;
+    }
+
+    #tupicuru-loc {
+        position: absolute;
+        top: 67.5vh;
+        left: 93vw;
+    }
+
+    #pica-pau-loc {
+        position: absolute;
+        top: 70.5vh;
+        left: 85vw;
+    }
+
+    #gaviao-loc {
+        position: absolute;
+        top: 72vh;
+        left: 55vw;
+    }
+
+    #anu-preto-loc {
+        position: absolute;
+        top: 71.5vh;
+        left: 75vw;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .menu-toggle {
+        display: block;
+        position: relative;
+        top: 10vh;
+        margin: 32% 0 0 -15%;
+    }
+
+    .home-img, .home-img-resized-1200, .home-img-resized-1024, .home-img-resized-900, .home-img-resized-480, .home-img-resized-425 {
+        display: none;
+    }
+
+    .home-img-resized-375 {
+        display: block;
+    }
+
+    #brand > h2 {
+        font-size: large;
+        width: 50vw;
+        margin-left: 5vw;
+    }
+
+    .menu-toggle {
+        display: block;
+        position: relative;
+        top: 10vh;
+        margin: 57.5% 0 0 -17%;
+    }
+
+    .home-principal {
+        width: 90vw;
+    }
+
+    .home-info {
+        width: 60vw;
+    }
+
+    .midia, .fauna-flora, .cuidados {
+        width: 85vw;
+        height: 68vh;
+        margin-bottom: 2vh;
+    }
+
+    .camisetas, .canecas, .ajude-nos {
+        width: 77vw;
+        height: 64vh;
+        margin-top: 2vh;
+    }
+
+    .footer {
+        margin-top: -3vh;
+    }
+
+    /* HISTORIA */
+    .dot {
+        top: calc(218% - 5px);
+        left: calc(1% + 20%);
+    }
+
+    .tooltip {
+        top: 225%;
+        left: 10%;
+        right: 10%;
+    }
+
+     /* TABBER */
+     .tablink {
+        width: 21vw;
+    }
+
+    .sub-tablink {
+        width: 43.2vw;
+    }
+
+    .para-saber-mais {
+        width: 375px;
+        margin-left: 10vw;
+    }
+
+    #aranha-loc > img {
+        position: absolute;
+        top: 3vh;
+        left: 94.5vw;
+    }
+
+    #saracura-loc {
+        position: absolute;
+        top: 5.5vh;
+        left: 99vw;
+    }
+
+    #garca-loc {
+        position: absolute;
+        top: 5.2vh;
+        left: 75vw;
+    }
+
+    #lagarto-loc {
+        position: absolute;
+        top: 5.5vh;
+        left: 90vw;
+    }
+
+    #prea-loc {
+        position: absolute;
+        top: 61vh;
+        left: 106vw;
+    }
+
+    #tupicuru-loc {
+        position: absolute;
+        top: 67.5vh;
+        left: 105vw;
+    }
+
+    #pica-pau-loc {
+        position: absolute;
+        top: 70.5vh;
+        left: 95vw;
+    }
+
+    #gaviao-loc {
+        position: absolute;
+        top: 72vh;
+        left: 65vw;
+    }
+
+    #anu-preto-loc {
+        position: absolute;
+        top: 71.5vh;
+        left: 85vw;
+    }
+}
