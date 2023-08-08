@@ -1057,6 +1057,20 @@
     }
 }
 
+@media (max-width: 576px) {
+    .mato-baptista {
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+
+    .slideshow {
+      max-height: 450px;
+    }
+  }
+
 @media screen and (max-width: 426px) {
     .home-img, .home-img-resized-1200, .home-img-resized-1024, .home-img-resized-900, .home-img-resized-480, .home-img-resized-375 {
         display: none;
@@ -1179,6 +1193,10 @@
         position: absolute;
         top: 71.5vh;
         left: 75vw;
+    }
+
+    .slick-next:before, .slick-prev:before {
+        display: none;
     }
 }
 
@@ -1314,4 +1332,6 @@
         top: 71.5vh;
         left: 85vw;
     }
+
+    
 }

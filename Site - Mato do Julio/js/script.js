@@ -263,13 +263,18 @@ $(document).ready(function(){
 
 $(document).ready(function() {
   $('.slideshow').slick({
-    arrows: true, // Exibe as setas de navegação
-    dots: true, // Exibe as miniaturas
-    appendDots: '.slideshow-thumbnails', // Elemento para exibir as miniaturas
-    prevArrow: '<button type="button" class="slick-prev"><</button>', // Código HTML para a seta de navegação anterior
-    nextArrow: '<button type="button" class="slick-next">></button>', // Código HTML para a seta de navegação seguinte
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    infinite: true,
+    dots: true,
+    fade: true,
+    centerMode: true,
+    adaptiveHeight: true,
+    mobileFirst: true
   });
 });
+
 
 //function button back-top
 let backTop = document.getElementsByClassName("back-top");
