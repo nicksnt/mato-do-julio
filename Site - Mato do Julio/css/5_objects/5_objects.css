@@ -171,8 +171,8 @@
 
 .home-help {
     background-color: var(--color-secundary-shadow);
-    width: 200%;
-    margin-left: -50%;
+    width: 150%;
+    margin-left: -25%;
 }
 
 .home-action > h1, .home-help > h1, .home-how > h1, .home-how-mobile > h1, .center-title > h1 {
@@ -296,6 +296,7 @@
 
 .home-quem {
     margin-top: 4vh;
+    margin-bottom: 4vh;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

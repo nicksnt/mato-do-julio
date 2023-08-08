@@ -1,4 +1,5 @@
 @media screen and (min-width: 1200px) {
+
     .home-img-resized-1200, .home-img-resized-900, .home-img-resized-480, .home-img-resized-425, .home-img-resized-375 {
         display: none;
     }
@@ -424,6 +425,7 @@
 }
 
 @media screen and (max-width: 900px) {
+
     /*MENU*/
     .header {
         justify-content: left;
