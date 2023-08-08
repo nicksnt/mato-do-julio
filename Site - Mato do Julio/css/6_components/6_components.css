@@ -3,7 +3,7 @@
     background: var(--text-color-light);
     display: none;
     position: absolute;
-    width: 7.3vw;
+    width: auto;
     z-index: 20;
     list-style: none;
     box-shadow: 5px 5px 5px #CCC;
@@ -42,7 +42,7 @@
 }
 
 #sobre-mato > ul {
-    width: 9.4vw;
+    width: auto;
 }
 
 /* HISTORIA */
