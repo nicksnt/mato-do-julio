@@ -270,8 +270,7 @@ $(document).ready(function() {
     dots: true,
     fade: true,
     centerMode: true,
-    adaptiveHeight: true,
-    mobileFirst: true
+    adaptiveHeight: true
   });
 });
 
