@@ -18,6 +18,22 @@
     }
 }
 
+@media screen and (max-width: 1450px) {
+    .slider-produtos {
+        max-width: 50vw;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .slider-produtos {
+        max-width: 54vw;
+    }
+
+    .camisetas, .canecas, .ajude-nos {
+        width: 27vw;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     #brand {
         margin-right: 5vw;
@@ -58,7 +74,6 @@
 
     .camisetas, .canecas, .ajude-nos {
         width: 25vw;
-        height: 65vh;
         margin: 1vw;
         border-radius: 15px;
     }
@@ -78,9 +93,8 @@
     /* PRODUTOS */
 
     .slider-produtos {
-        width: 55vw;
-        height: 85vh;
-        padding: 3vh 3vw 3vh 3vw;
+        min-width: 60vw;
+        margin: 3vh 3vw 3vh 3vw;
     }
 
     .slider-info-mobile {
@@ -218,7 +232,6 @@
 
     .camisetas, .canecas, .ajude-nos {
         width: 29vw;
-        height: 63vh;
     }
 
     .saiba-mais {
@@ -245,9 +258,18 @@
     /* PRODUTOS */
 
     .slider-produtos {
-        width: 65vw;
-        height: 85vh;
-        padding: 3vh 3vw 3vh 3vw;
+        width: 55vw;
+        margin: 3vh 3vw 3vh 3vw;
+    }
+
+    .slider-info {
+        display: none;
+    }
+
+    .slider-info-mobile {
+        display: block;
+        margin-left: 5vw;
+        margin-bottom: 5vh;
     }
 
     .size > button {
@@ -569,18 +591,8 @@
         padding: 3vh 3vw 3vh 3vw;
     }
 
-    .slider-info {
-        display: none;
-    }
-
     .description-product > h2 {
         margin-top: 0;
-    }
-
-    .slider-info-mobile {
-        display: block;
-        margin-left: 5vw;
-        margin-bottom: 5vh;
     }
     
     .slider-container {
@@ -926,7 +938,6 @@
 
     .slider-produtos-mobile {
         display: flex;
-        height: 50vh;
         margin-left: 2vw;
         padding: 3vh 3vw 3vh 3vw;
     }

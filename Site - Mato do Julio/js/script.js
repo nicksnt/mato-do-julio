@@ -245,7 +245,6 @@ $(document).ready(function(){
     slidesToScroll: 1,
     arrows: true,
     infinite: true,
-    dots: true,
     fade: true,
     asNavFor: '.slider-nav-mobile'
   });

@@ -408,8 +408,7 @@
 
 .slider-produtos, .slider-produtos-mobile {
     display: flex;
-    width: 44vw;
-    height: 80vh;
+    max-width: 46vw;
     padding: 3vh 3vw 3vh 3vw;
 }
 
@@ -503,6 +502,7 @@
 
 .description-product > p {
     color: var(--text-color-dark);
+    width: 30vw;
     font-size: 14.5px;
 }
 
